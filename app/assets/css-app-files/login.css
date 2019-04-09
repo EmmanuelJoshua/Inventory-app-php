@@ -1,3 +1,12 @@
+.btn{
+	width: 110px !important;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 #header{
-	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/pexels-photo-1363165.jpeg);
+	background-size: cover;
+	height: 100%;
 }
