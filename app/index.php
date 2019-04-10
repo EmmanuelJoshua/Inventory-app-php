@@ -24,9 +24,12 @@
 			</nav>
 			<div class="container">
 				<div class="row">
+					<div class="col-md-6 text-white mt-5">
+						<h1 class="text-center display-4" style="font-family: Pacifico">Palace Petroleum</h1>
+					</div>
 					<div class="col-md-6 text-dark" >
 						<!-- <h2 class="display-4 text-center">LOGIN</h2> -->
-						<div class="col-md-11 text-dark pt-5 pb-5 mt-3" id="login">
+						<div class="col-md-10 text-dark pt-5 pb-5 mt-3" id="login">
 							<div class="container">
 								<form method="post" onsubmit="submitForm(event)">
 									<div class="form-group">
@@ -44,16 +47,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 text-white pt-5 pb-5 mt-3">
-						<h1 class="text-center display-4" style="font-family: Pacifico">Palace Petroleum</h1>
-					</div>
+					
 				</div>
 			</div>
 		</header>
 
-		<div id="footer" class="bg-dark text-white">
+		<header id="header2">
+		</header>
+		<!-- <div id="footer" class="bg-dark text-white">
 			<span>© All Rights Reserved.</span>
-		</div>
+		</div> -->
 		
 	</body>
 	<script type="text/javascript" src="../app/assets/js-app-files/login.js"></script>
