@@ -1,5 +1,5 @@
 #header{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/pexels-photo-1363165.jpeg);
+	background-image: url(../images/header.png);
 	background-size: cover;
 	height: 91vh;
 	width: 100%;
@@ -49,14 +49,10 @@
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
-.contain2{
-
-}
-
 .navbar-right .btn{
 	width: 100px !important;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 20px;
     font-weight: 500;
 	color: #343a40 !important;
 	background-color: #fafbfc;
