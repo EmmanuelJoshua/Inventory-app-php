@@ -54,9 +54,9 @@
 
 		<header id="header2">
 		</header>
-		<!-- <div id="footer" class="bg-dark text-white">
+		<div id="footer" class="text-dark">
 			<span>© All Rights Reserved.</span>
-		</div> -->
+		</div>
 		
 	</body>
 	<script type="text/javascript" src="../app/assets/js-app-files/login.js"></script>
