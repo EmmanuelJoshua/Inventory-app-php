@@ -5,6 +5,16 @@
     font-weight: 500;
 }
 
+#login{
+	top: 35px;
+	background-color: #fafbfc!important;
+	width: 500px;
+	border-radius: 20px !important;
+}
+
+#login .container{
+}
+
 #header{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/pexels-photo-1363165.jpeg);
 	background-size: cover;
