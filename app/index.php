@@ -12,18 +12,31 @@
 	</head>
 	<body>
 		<header id="header">
-			<div class="col-md-6 text-center text-white pt-5">
-				<h2 class="display-4">LOGIN</h2>
-				<div class="form-group">
-					<form method="post" onsubmit="submitForm(event)">
-						<input class="form-control col-9 mx-auto mb-4" placeholder="Username" type="text" id="username">
-						<input class="form-control col-9 mx-auto mb-4" placeholder="Password" type="password" id="password">
-						<input class="btn btn-primary mt-1" type="submit" id="getData" value="Login">
+			<nav class="navbar-nav">
+				
+			</nav>
+			<div class="container">
+				<div class="col-md-6 text-dark pt-4 pb-4 mt-5" id="login">
+					<h2 class="display-4 text-center">LOGIN</h2>
+					<div class="container">
+						<form method="post" onsubmit="submitForm(event)">
+							<div class="form-group">
+								<label class="form-label mx-auto h5" for="user[login]">Username</label>
+								<input class="form-control col-12  mb-4" type="text" id="username">
+							</div>
+
+							<div class="form-group">
+								<label class="form-label h5" for="user[login]">Password</label>
+								<input class="form-control col-12 mb-4" type="password" id="password">
+							</div>
+						
+						<input class="btn btn-primary text-center" type="submit" id="getData" value="Login">
 					</form>
 				</div>
 			</div>
-		</header>
-		
-	</body>
-	<script type="text/javascript" src="../app/assets/js-app-files/login.js"></script>
+		</div>
+	</header>
+	
+</body>
+<script type="text/javascript" src="../app/assets/js-app-files/login.js"></script>
 </html>
