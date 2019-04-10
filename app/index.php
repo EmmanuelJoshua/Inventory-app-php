@@ -10,44 +10,41 @@
 		<!-- Website Stylesheet -->
 		<link rel="stylesheet" href="../app/assets/css-app-files/login.css">
 	</head>
-	<body>
-		<header id="header">
+	<body id="header">
+		<header>
 			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#">Palace Petroleum</a>
-					</div>
-					<div class="collapse navbar-collapse">
-
-                    </div>
-                    <div class="collapse navbar-collapse">
-                    	 <ul class="navbar-nav">
-                    	 	<li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="">
-                                About
-                            </a>
-                        </li>
-                    	 </ul>
-                    </div>
+				<div class="container">
+					<ul class="nav navbar-nav">
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="btn btn-primary">Payroll</a></li>
+					</ul>
 				</div>
 			</nav>
 			<div class="container">
-				<div class="col-md-6 text-dark pt-5 pb-5" id="login">
-					<h2 class="display-4 text-center">LOGIN</h2>
-					<div class="container">
-						<form method="post" onsubmit="submitForm(event)">
-							<div class="form-group">
-								<label class="form-label mx-auto h5" for="user[login]">Username</label>
-								<input class="form-control col-12  mb-4" type="text" id="username">
+				<div class="row">
+					<div class="col-md-6 text-dark" >
+						<!-- <h2 class="display-4 text-center">LOGIN</h2> -->
+						<div class="col-md-11 text-dark pt-5 pb-5 mt-3" id="login">
+							<div class="container">
+								<form method="post" onsubmit="submitForm(event)">
+									<div class="form-group">
+										<label class="form-label mx-auto h5" for="user[login]">Username</label>
+										<input class="form-control col-12  mb-4" type="text" id="username">
+									</div>
+									<div class="form-group">
+										<label class="form-label h5" for="user[login]">Password</label>
+										<input class="form-control col-12 mb-4" type="password" id="password">
+									</div>
+									<div class="text-center">
+										<input class="btn btn-primary" type="submit" id="getData" value="Login">
+									</div>
+								</form>
 							</div>
-							<div class="form-group">
-								<label class="form-label h5" for="user[login]">Password</label>
-								<input class="form-control col-12 mb-4" type="password" id="password">
-							</div>
-							<div class="text-center">
-								<input class="btn btn-primary" type="submit" id="getData" value="Login">
-							</div>
-						</form>
+						</div>
+					</div>
+					<div class="col-md-6 text-white pt-5 pb-5 mt-3">
+						<h1 class="text-center">Palace Petroleum</h1>
 					</div>
 				</div>
 			</div>

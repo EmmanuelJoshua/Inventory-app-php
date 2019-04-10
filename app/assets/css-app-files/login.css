@@ -4,7 +4,7 @@
 	height: 100vh;
 }
 
-.btn{
+#login .btn{
 	width: 120px !important;
 	height: 45px;
     border-radius: 20px;
@@ -35,6 +35,29 @@
     width: 100%;
 }
 
+.form-group .form-label{
+	font-weight: 400;
+}
+
 .navbar{
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contain2{
+
+}
+
+.navbar-right .btn{
+	width: 100px !important;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 500;
+	color: #343a40 !important;
+	background-color: #fafbfc;
+}
+
+@media (min-width: 992px){
+.container {
+    max-width: 1100px !important;
+}
 }
