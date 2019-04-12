@@ -53,6 +53,10 @@ body, html {
 	border: none !important;
 }
 
+.input-group-text i{
+	color: #99A3AC;
+}
+
 .input-group{
 	/*border: 1.5px solid #CED4DA !important;*/
 	border-radius: 10px;
