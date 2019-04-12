@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="../app/assets/css-app-files/login.css">
 		<!-- Font CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-
+		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<body >
@@ -54,7 +54,7 @@
 										</div>
 									</div>
 									<div class="text-center">
-										<input class="btn btn-primary" type="submit" id="getData" value="Login">
+										<input class="btn btn-primary mt-3" type="submit" id="getData" value="Login">
 									</div>
 								</form>
 							</div>
