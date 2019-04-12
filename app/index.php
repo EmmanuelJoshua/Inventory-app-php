@@ -53,6 +53,10 @@
 											<input class="form-control" type="password" id="password">
 										</div>
 									</div>
+									<div class="custom-control custom-checkbox mt-4">
+										<input type="checkbox" class="custom-control-input" id="customCheck" name="">
+										<label class="custom-control-label" for="customCheck">Remember me</label>
+									</div>
 									<div class="text-center">
 										<input class="btn btn-primary mt-3" type="submit" id="getData" value="Login">
 									</div>
@@ -68,8 +72,8 @@
 				<div class="row justify-content-center">
 					<div class="col-md-6 col-12">
 						<p style="text-align: center;">
-							© 
-							<script>document.write(new Date().getFullYear());</script>, Palace Petroleum 
+							©
+							<script>document.write(new Date().getFullYear());</script>, Palace Petroleum
 							&nbsp; &nbsp;
 						</p>
 					</div>
