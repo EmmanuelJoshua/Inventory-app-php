@@ -68,7 +68,8 @@
 				<div class="row justify-content-center">
 					<div class="col-md-6 col-12">
 						<p style="text-align: center;">
-							Copyright © Palace Petroleum <script>document.write(new Date().getFullYear());</script>
+							© 
+							<script>document.write(new Date().getFullYear());</script>, Palace Petroleum 
 							&nbsp; &nbsp;
 						</p>
 					</div>

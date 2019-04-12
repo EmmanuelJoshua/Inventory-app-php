@@ -105,7 +105,7 @@ body, html {
 }
 
 #footer p{
-	font-family: sans-serif;
+	font-family: 'Open Sans';
 }
 
 @media (min-width: 992px){
