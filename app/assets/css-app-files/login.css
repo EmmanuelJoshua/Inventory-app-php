@@ -8,8 +8,8 @@ body, html {
 }
 
 #header{
-	background-image: linear-gradient(to bottom, transparent 58%, #F9FAFB 50%), url('../images/header.png');
-	height: 91%;
+	background-image: linear-gradient(to bottom, transparent 58%, #F9FAFB 42%), url('../images/header.png');
+	height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,8 +126,20 @@ body, html {
 	}
 }
 
+/*@media screen and (min-width: 768px) and (min-height: 1024px){
+	#header{
+		height: 55% !important;
+	}
+}*/
+
 @media (max-width: 767px){
 	#header{
 		height: 115% !important;
+	}
+}
+
+@media (min-width: 767px){
+	.container {
+    	max-width: 1300px !important;
 	}
 }
