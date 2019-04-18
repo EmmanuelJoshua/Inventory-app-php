@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -34,7 +38,7 @@
 						<!-- <h2 class="display-4 text-center">LOGIN</h2> -->
 						<div class="col-md-10 text-dark pt-5 pb-5 mt-2" id="login">
 							<div class="container">
-								<form method="post" onsubmit="submitForm(event, this)">
+								<form method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" onsubmit="submitForm(event, this)">
 									<div class="form-group mb-4 mt-2">
 										<label class="form-label mx-auto h5" for="user[login]">Username</label>
 										<div class="input-group">
