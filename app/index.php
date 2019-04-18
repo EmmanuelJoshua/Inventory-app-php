@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Home | Palace Petroleum</title>
+		<title>Login | Palace Petroleum</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Website Icon -->
 		<link rel="icon" href="">

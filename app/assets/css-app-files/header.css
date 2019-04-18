@@ -1,0 +1,45 @@
+.navbar{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+	background-color: #28264A;
+}
+
+.navbar .btn{
+	font-family: montserrat;
+	border-radius: .25rem;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+	width: 100px !important;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+	color: #343a40 !important;
+	background-color: #fafbfc;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar .btn:hover{
+	background-color: #0069D9;
+	border: 2px solid #288EFF;
+	color: #fff !important;
+}
+
+.navbar-nav i{
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.navbar-brand{
+	font-size: 1.5em !important;
+}
+
+.navbar-nav #admin{
+	color: white;
+	margin-right: 10px;
+	font-family: montserrat;
+}
