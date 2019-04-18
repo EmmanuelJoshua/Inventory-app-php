@@ -13,6 +13,7 @@
     transition: all 0.3s;
     background: #7386D5;
     transition: all 0.3s;
+    border-right: 1px solid #c8ced3;
 }
 
 #sidebar .sidebar-header {

@@ -16,22 +16,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body onload="displayTime();">
-    <nav class="navbar navbar-expand-md justify-content-center navbar-dark">
-      <span class="navbar-brand" href="#" style="font-family: Pacifico">Palace Petroleum</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="side_header text-center">
+        <span class="navbar-brand" href="#" style="font-family: Pacifico">Palace Petroleum</span>
+      </div>
+      <span class="navbar-brand" href="#" style="font-family: Pacifico"></span>
+      <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
+          
+        </ul>
+        <ul class="navbar-nav my-2 my-md-0">
+          <li class="nav-item">
             <span class="nav-link" id="timeSpan" style="font-family: montserrat;"></span>
           </li>
-        </ul>
-        <ul class="navbar-nav my-2 my-md-0 d-flex">
           <li class="nav-item">
             <a id="admin">
               <i class="fas fa-user"></i>
-            <span class="" href="#">Admin</span>
+              <span class="" href="#">Admin</span>
             </a>
             
           </li>

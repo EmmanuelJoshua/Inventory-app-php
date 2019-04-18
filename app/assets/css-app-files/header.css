@@ -6,6 +6,26 @@
     width: 100%;
     z-index: 100;
 	background-color: #28264A;
+	box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*.navbar-nav:nth-child(0),.mx-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+}*/
+
+.side_header{
+	position: absolute;
+	width: 250px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #3F3C73;
+	z-index: 100;
+	padding-top: 3px;
+	border-right: 1px solid #28264A;
 }
 
 .navbar .btn{
@@ -13,7 +33,7 @@
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	width: 100px !important;
-    height: 40px;
+    height: 38px;
     text-transform: uppercase;
     font-weight: 500;
 	color: #343a40 !important;
@@ -35,7 +55,7 @@
 }
 
 .navbar-brand{
-	font-size: 1.5em !important;
+	font-size: 1.7em !important;
 }
 
 .navbar-nav #admin{

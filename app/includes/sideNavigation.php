@@ -23,7 +23,7 @@
 
         <ul class="list-unstyled text-center">
             <li class="active">
-                <a href="#">Products</a>
+                <a href="#"><i class="fas fa-box-open"></i>Products</a>
             </li>
             <li>
                 <a href="#">Costumers</a>
