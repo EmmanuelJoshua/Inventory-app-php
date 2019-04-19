@@ -1,5 +1,5 @@
 .sidebar-dark{
-	background-color: #2A2853 !important;
+	background-color: #FFFFFF !important;
 }
 
 .nav-left-sidebar {
@@ -14,16 +14,24 @@
 }
 
 .nav-left-sidebar .nav-link i {
-    font-size: 14px;
-    margin-right: 9px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 20px;
     text-align: center;
     vertical-align: middle;
-    line-height: 16px;
 }
 
-.nav-left-sidebar .navbar {
-    position: relative;
-    padding: 14px;
+.nav-left-sidebar .nav-item a{
+	display: block;
+    color: #555;
+    font-family: montserrat;
+    font-size: 16px;
+    padding: 10px 0;
+
+}
+
+.nav-left-sidebar .nav-link{
+	border-left: 4px solid #fff;
 }
 
 .nav-left-sidebar .navbar-nav {
@@ -33,5 +41,5 @@
 .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
     background-color: #242849;
     color: #fff;
-    border-radius: 2px;
+   	border-left: 4px solid #3A85FF;
 }

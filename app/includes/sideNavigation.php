@@ -17,14 +17,8 @@
   </head>
   <body>
     <div class="nav-left-sidebar sidebar-dark">
-      <div class="menu-list">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-          <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav flex-column">
+        <nav class="navbar-white bg-transparent">
+            <ul class="navbar-nav flex-column pt-2">
               <li class="nav-item ">
                 <a class="nav-link active" href="#"><i class="fas fa-box-open"></i>Products</a>
               </li>
@@ -59,8 +53,7 @@
                 <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i>Invoice</a>
               </li>
             </ul>
-          </div>
-        </nav>
+      </div>
       </div>
     </nav>
   </div>
