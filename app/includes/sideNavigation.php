@@ -20,37 +20,37 @@
         <nav class="navbar-white bg-transparent">
             <ul class="navbar-nav flex-column pt-2">
               <li class="nav-item ">
-                <a class="nav-link active" href="#"><i class="fas fa-box-open"></i>Products</a>
+                <a class="nav-link active" href="#"><i class="fas fa-box-open"></i><span>Products</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-truck"></i>Tanks</a>
+                <a class="nav-link" href="#"><i class="fas fa-truck"></i><span>Tanks</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-tags"></i></i>Prices</a>
+                <a class="nav-link" href="#"><i class="fas fa-tags"></i></i><span>Prices</span></a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#"><i class="fas fa-gas-pump"></i>Fuel Pump</a>
+                <a class="nav-link" href="#"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-truck-moving"></i>Supplies</a> 
+                <a class="nav-link" href="#"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-users"></i>Suppliers</a>
+                <a class="nav-link" href="#"><i class="fas fa-users"></i><span>Suppliers</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-friends"></i>Customers/Buyers</a>
+                <a class="nav-link" href="#"><i class="fas fa-user-friends"></i><span>Customers/Buyers</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="far fa-credit-card"></i>Payment</a>
+                <a class="nav-link" href="#"><i class="far fa-credit-card"></i><span>Payment</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-university"></i>Bank</a>
+                <a class="nav-link" href="#"><i class="fas fa-university"></i><span>Bank</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-cash-register"></i>Expenses/Purchases</a>
+                <a class="nav-link" href="#"><i class="fas fa-cash-register"></i><span>Expenses/Purchases</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i>Invoice</a>
+                <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i><span>Invoice</span></a>
               </li>
             </ul>
       </div>

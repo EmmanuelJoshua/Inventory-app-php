@@ -4,7 +4,7 @@
 
 .nav-left-sidebar {
     position: fixed;
-    width: 264px;
+    width: 250px;
     height: 100%;
     top: 60px;
     overflow: auto;
@@ -30,6 +30,10 @@
 
 }
 
+.nav-left-sidebar .nav-items:hover a,i{
+	color: #3A85FF;
+}
+
 .nav-left-sidebar .nav-link{
 	border-left: 4px solid #fff;
 }
@@ -42,4 +46,13 @@
     background-color: #242849;
     color: #fff;
    	border-left: 4px solid #3A85FF;
+}
+
+@media only screen and (max-width: 900px){
+	.nav-left-sidebar {
+    	width: 70px;
+	}
+	.nav-left-sidebar .nav-item a span{
+		display: none;
+	}
 }

@@ -21,7 +21,9 @@
 	</head>
 	<body>
 		<div class="dashboard-wrapper">
-			<h1>Dashboard</h1>
+			<div class="container">
+				<h3>Dashboard</h3>
+			</div>
 		</div>
 	</body>
 </html>

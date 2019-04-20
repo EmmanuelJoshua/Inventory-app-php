@@ -18,14 +18,11 @@
   <body onload="displayTime();">
     <div class="dashboard-main-wrapper">
       <div class="dashboard-header">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <nav class="navbar navbar-expand bg-white fixed-top">
           <div class="header-wrapper">
             <a class="navbar-brand" href="#" style="font-family: Dosis">Palace Petroleum</a>
           </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class=" navbar-collapse">
             <ul class="navbar-nav ml-auto navbar-right-top">
               <li class="nav-item">
                 <span class="nav-link" id="timeSpan"></span>
