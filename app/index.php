@@ -1,6 +1,28 @@
 <?php
-
+    include_once "db-config/dbConnect.php";
 ?>
+
+<?php
+    function loginProcess($username, $password){
+        echo $username;
+
+        $username = stripslashes($username);
+        $username = htmlspecialchars($username);
+        $username = mysqli_real_escape_string($connect, $username);
+    }
+?>
+
+<?php
+    if (isset($_POST['submit'])) {
+        # code...
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        loginProcess($username, $password);
+        
+    }
+?>
+
 
 <!DOCTYPE html>
 <html>
@@ -39,14 +61,14 @@
 						<!-- <h2 class="display-4 text-center">LOGIN</h2> -->
 						<div class="col-md-10 text-dark pt-5 pb-5 mt-2" id="login">
 							<div class="container">
-								<form method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" onsubmit="submitForm(event, this)">
+								<form method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]);?>" onsubmit="submitForm(event, this)">
 									<div class="form-group mb-4 mt-2">
 										<label class="form-label mx-auto h5" for="user[login]">Username</label>
 										<div class="input-group">
 											<div class="input-group-prepend">
 												<span class="input-group-text"><i class="fas fa-user"></i></span>
 											</div>
-											<input class="form-control" type="text" id="username">
+											<input class="form-control" type="text" id="username" name="username">
 										</div>
 									</div>
 									<div class="form-group mt-3 mb-3">
@@ -55,15 +77,15 @@
 											<div class="input-group-prepend">
 												<span class="input-group-text"><i class="fas fa-key"></i></span>
 											</div>
-											<input class="form-control" type="password" id="password">
+											<input class="form-control" type="password" id="password" name="password">
 										</div>
 									</div>
-									<div class="custom-control custom-checkbox mt-4">
+									<!-- <div class="custom-control custom-checkbox mt-4">
 										<input type="checkbox" class="custom-control-input" id="customCheck" name="">
 										<label class="custom-control-label" for="customCheck">Remember me</label>
-									</div>
+									</div> -->
 									<div class="text-center">
-										<input class="btn btn-primary mt-3" type="submit" id="getData" value="Login">
+										<input class="btn btn-primary mt-3" type="submit" id="getData" value="Login" name="submit">
 									</div>
 								</form>
 							</div>
