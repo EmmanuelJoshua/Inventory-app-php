@@ -47,6 +47,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i><span>Invoice</span></a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i><span>Income/Expenditure</span></a>
+              </li>
             </ul>
       </div>
       </div>
