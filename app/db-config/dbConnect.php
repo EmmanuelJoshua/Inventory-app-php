@@ -1,18 +1,15 @@
 <?php
+    $db['db_host'] = "localhost";
+    $db['db_user'] = "root";
+    $db['db_pass'] = "";
+    $db['db_name'] = "PalacePetroleum";
 
-    $host="localhost";
-    $username="root";
-    $password="";
-    $dbname="PalacePetroleum";
-
-    // connect to database
-    $connect = new mysqli($host, $username, $password, $dbname);
-
-    // check for connection failure
-    if($connect->connect_error){
-        die("connection failed: ".$connect->connect_error);
-    }else{
-        // echo"connection successfull";
+    foreach ($db as $key => $value) {
+        define(strtoupper($key), $value);
     }
 
+    $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    if($connection){
+        // echo  "connection successfull";
+    }
 ?>

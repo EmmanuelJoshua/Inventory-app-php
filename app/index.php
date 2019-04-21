@@ -1,3 +1,29 @@
+<?php
+    include_once "db-config/dbConnect.php";
+?>
+
+<?php
+    function loginProcess($username, $password){
+        echo $username;
+
+        $username = stripslashes($username);
+        $username = htmlspecialchars($username);
+        $username = mysqli_real_escape_string($connect, $username);
+    }
+?>
+
+<?php
+    if (isset($_POST['submit'])) {
+        # code...
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        loginProcess($username, $password);
+        
+    }
+?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -34,7 +60,7 @@
 						<!-- <h2 class="display-4 text-center">LOGIN</h2> -->
 						<div class="col-md-10 text-dark pt-5 pb-5 mt-2" id="login">
 							<div class="container">
-								<form method="post" action="php_scripts/login-form-process.php" onsubmit="submitForm(event, this)">
+								<form method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]);?>" onsubmit="submitForm(event, this)">
 									<div class="form-group mb-4 mt-2">
 										<label class="form-label mx-auto h5" for="user[login]">Username</label>
 										<div class="input-group">
