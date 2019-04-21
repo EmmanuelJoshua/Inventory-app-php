@@ -1,25 +1,20 @@
 <?php
     include_once "db-config/dbConnect.php";
-?>
 
-<?php
     function loginProcess($username, $password){
-        echo $username;
-
-        $username = stripslashes($username);
-        $username = htmlspecialchars($username);
-        $username = mysqli_real_escape_string($connection, $username);
+        
     }
-?>
+    ?>
 
 <?php
     if (isset($_POST['submit'])) {
-        # code...
         $username = $_POST['username'];
         $password = $_POST['password'];
-
-        loginProcess($username, $password);
         
+        $username = stripslashes($username);
+        $username = htmlspecialchars($username);
+        $username = mysqli_real_escape_string($connection, $username);
+        loginProcess($username, $password);
     }
 ?>
 
