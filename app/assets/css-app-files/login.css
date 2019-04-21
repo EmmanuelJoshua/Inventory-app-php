@@ -9,7 +9,8 @@ body, html {
 
 #header{
 	background-image: linear-gradient(to bottom, transparent 58%, #F9FAFB 42%), url('../images/header.png');
-	height: 100%;
+	height: 100vh;
+	max-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,10 +19,11 @@ body, html {
 }
 
 .navbar-right .btn{
+	border: 1px solid #242849;
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	width: 100px !important;
-    height: 40px;
+    height: 38px;
     text-transform: uppercase;
     font-weight: 500;
 	color: #343a40 !important;
@@ -31,7 +33,6 @@ body, html {
 
 .navbar-right .btn:hover{
 	background-color: #0069D9;
-	border: 1.5px solid #fff;
 	color: #fff !important;
 }
 

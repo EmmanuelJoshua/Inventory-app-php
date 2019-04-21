@@ -19,18 +19,19 @@
     margin-left: 20px;
     text-align: center;
     vertical-align: middle;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-left-sidebar .nav-item a:hover{
+	color: #242849 !important;
 }
 
 .nav-left-sidebar .nav-item a{
 	display: block;
     color: #555;
-    font-family: montserrat;
-    font-size: 15px;
+    font-family: 'Titillium Web';
+    font-size: 17px;
     padding: 10px 0;
-
-}
-
-.nav-left-sidebar .nav-items:hover a,i{
 
 }
 
