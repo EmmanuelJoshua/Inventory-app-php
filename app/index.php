@@ -8,7 +8,7 @@
 
         $username = stripslashes($username);
         $username = htmlspecialchars($username);
-        $username = mysqli_real_escape_string($connect, $username);
+        $username = mysqli_real_escape_string($connection, $username);
     }
 ?>
 
