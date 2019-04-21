@@ -1,6 +1,6 @@
 .dashboard-wrapper{
 	z-index: -9999;
-   	position: relative;
+   	position: absolute;
     left: 0;
     margin-top: 60px !important;
     margin-left: 250px;

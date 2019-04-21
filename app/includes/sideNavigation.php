@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <base href="../"> -->
     <title>Home | Palace Petroleum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Website Icon -->
@@ -10,17 +9,13 @@
     <link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
     <!-- Website Stylesheet -->
     <link rel="stylesheet" href="../app/assets/css-app-files/sideNav.css">
-    <!-- Font CDN -->
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
     <div class="nav-left-sidebar sidebar-dark">
         <nav class="navbar-white bg-transparent">
             <ul class="navbar-nav flex-column pt-2">
               <li class="nav-item ">
-                <a class="nav-link active" href="#"><i class="fas fa-box-open"></i><span>Products</span></a>
+                <a class="nav-link" href="#"><i class="fas fa-box-open"></i><span>Products</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-truck"></i><span>Tanks</span></a>

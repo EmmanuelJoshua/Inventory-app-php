@@ -54,6 +54,7 @@
 }
 
 .navbar-brand{
+	font-family: 'Titillium Web';
 	display: inline-block;
     margin-right: 1rem;
     line-height: inherit;
@@ -67,8 +68,11 @@
 .nav-user-img img{
 	width: 40px;
 	height: 40px;
-	margin-right: 15px;
-	/*margin-left: 10px;*/
+}
+
+.dropdown-menu .dropdown-item i{
+	color: #242849;
+	/*font-family: Dosis !important;*/
 }
 
  .dropdown-toggle::after {
@@ -76,7 +80,7 @@
     display: inline-block;
     width: 0;
     height: 0;
-    margin-left: -1.4em !important;
+    margin-left: -0.5em !important;
     vertical-align: -0.8em !important;
     content: "";
     border-top: 0.3em solid;
@@ -87,7 +91,6 @@
 
 .navbar-right-top .nav-item {
     border-right: 1px solid #e6e6f2;
-    margin-right: 15px;
 }
 
 .navbar-right-top .nav-item .nav-link {
@@ -96,7 +99,8 @@
 }
 
 #timeSpan{
-	font-family: Open Sans;
+	font-family: 'Titillium Web';
+	font-size: 1.12em;
 	color: #242849 !important;
 }
 
