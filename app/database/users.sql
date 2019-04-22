@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 22, 2019 at 02:18 PM
+-- Generation Time: Apr 22, 2019 at 02:26 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.1.24
 
@@ -19,37 +19,30 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `Store`
+-- Database: `PalacePetroleum`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `Users`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE `Users` (
   `user_id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL
+  `user_role` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`user_id`, `username`, `password`, `email`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `users`
+-- Indexes for table `Users`
 --
-ALTER TABLE `users`
+ALTER TABLE `Users`
   ADD PRIMARY KEY (`user_id`);
 
 --
@@ -57,10 +50,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `Users`
 --
-ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+ALTER TABLE `Users`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
