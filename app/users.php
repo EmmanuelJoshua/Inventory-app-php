@@ -107,6 +107,43 @@
 </form>
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="deleteUser" tabindex="-1" role="dialog" aria-labelledby="deleteUserModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteUserModal">Delete User <i class="fas fa-user-times"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+  <div class="form-group mb-3">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Role:</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" id="pwd" placeholder="Enter Role">
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
         <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -138,7 +175,7 @@
 												</button>
 												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateUser">Update<i class="fas fa-user-edit ml-4"></i></button>
-													<button class="dropdown-item" style="font-family: 'Titillium Web'">Delete<i class="fas fa-user-times ml-4"></i></button>
+													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteUser">Delete<i class="fas fa-user-times ml-4"></i></button>
 												</div>
 											</div>
 										</td>
