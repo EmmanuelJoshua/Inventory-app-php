@@ -75,7 +75,7 @@
 	/*font-family: Dosis !important;*/
 }
 
- .dropdown-toggle::after {
+.dashboard-header .dropdown-toggle::after {
  	color: #242849;
     display: inline-block;
     width: 0;
