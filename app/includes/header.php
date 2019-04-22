@@ -3,10 +3,6 @@
   <head>
     <title>Home | Palace Petroleum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Website Icon -->
-    <link rel="icon" href="">
-    <!--Bootstrap -->
-    <link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
     <!-- Website Stylesheet -->
     <link rel="stylesheet" href="../app/assets/css-app-files/header.css">
   </head>
@@ -27,8 +23,7 @@
                   <img src="../app/assets/images/icons8-male-user-50.png">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#" style="font-family: 'Titillium Web'">Admin<i class="fas fa-user-cog ml-2"></i></a>
-                  <!-- <a class="dropdown-item" href="#" style="font-family: 'Titillium Web'">Add Admin<i class="fas fa-user-plus ml-3"></i></a> -->
+                  <a class="dropdown-item" href="#" style="font-family: 'Titillium Web'">Admin<i class="fas fa-user-cog ml-3"></i></a>
                 </div>
               </li>
               <li class="nav-item pr-2" style="border: none;">
