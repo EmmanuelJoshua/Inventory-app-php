@@ -23,7 +23,7 @@
                   <img src="../app/assets/images/icons8-male-user-50.png">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="#" style="font-family: 'Titillium Web'">Admin<i class="fas fa-user-cog ml-3"></i></a>
+                  <a class="dropdown-item" href="#" style="font-family: 'Titillium Web'">User Settings<i class="fas fa-user-cog ml-3"></i></a>
                 </div>
               </li>
               <li class="nav-item pr-2" style="border: none;">

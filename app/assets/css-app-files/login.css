@@ -9,8 +9,7 @@ body, html {
 
 #header{
 	background-image: linear-gradient(to bottom, transparent 58%, #F9FAFB 42%), url('../images/header.png');
-	height: 100vh;
-	max-height: 500px;
+	height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
