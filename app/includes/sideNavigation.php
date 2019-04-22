@@ -3,10 +3,6 @@
   <head>
     <title>Home | Palace Petroleum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Website Icon -->
-    <link rel="icon" href="">
-    <!--Bootstrap -->
-    <link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
     <!-- Website Stylesheet -->
     <link rel="stylesheet" href="../app/assets/css-app-files/sideNav.css">
   </head>
