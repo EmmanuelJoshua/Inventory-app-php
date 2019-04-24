@@ -20,8 +20,9 @@
 	<body>
 		<div class="dashboard-wrapper">
 			<div class="container">
-				<h3>Dashboard</h3>
-				<input type="button" name="" value="Hello" class="btn btn-primary">
+				<div class="dash-display rounded bg-white mx-auto text-center mb-5">
+					<h3>Dashboard</h3>
+				</div>
 			</div>
 		</div>
 	</body>
