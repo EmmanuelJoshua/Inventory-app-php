@@ -50,27 +50,19 @@
       <div class="modal-body">
         <form class="form-horizontal">
   <div class="form-group mb-3">
-    <!-- <label class="control-label col-sm-2" for="email">Email:</label> -->
-    <div class="col-sm-10">
+    <div class="col-sm-12">
       <input type="text" class="form-control" id="username" placeholder="Enter Username" style="width: 100%;">
     </div>
   </div>
   <div class="form-group mb-3">
-    <!-- <label class="control-label col-sm-2" for="pwd">Password:</label> -->
-    <div class="col-sm-10"> 
+    <div class="col-sm-12"> 
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 100%;">
     </div>
   </div>
-  <!-- <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Role:</label>
-    <div class="col-sm-10"> 
-      <input type="text" class="form-control" id="pwd" placeholder="Enter Role">
-    </div>
-  </div> -->
 </form>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal">Cancel<i class="fas fa-times-circle"></i></button>
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -88,27 +80,19 @@
       <div class="modal-body">
         <form class="form-horizontal">
   <div class="form-group mb-3">
-    <!-- <label class="control-label col-sm-2" for="username">Username:</label> -->
-    <div class="col-sm-10">
+    <div class="col-sm-12">
       <input type="text" class="form-control" id="username" placeholder="Enter Username" style="width: 100%;">
     </div>
   </div>
   <div class="form-group mb-3">
-    <!-- <label class="control-label col-sm-2" for="pwd">Password:</label> -->
-    <div class="col-sm-10"> 
+    <div class="col-sm-12"> 
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 100%;">
     </div>
   </div>
-  <!-- <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Role:</label>
-    <div class="col-sm-10"> 
-      <input type="text" class="form-control" id="pwd" placeholder="Enter Role">
-    </div>
-  </div> -->
 </form>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal">Cancel<i class="fas fa-times-circle"></i></button>
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -127,7 +111,7 @@
         <h4>Do you want to delete this user?</h4>
       </div>
       <div class="modal-footer">
-      	<button type="button" class="btn btn-primary" data-dismiss="modal">Cancel<i class="fas fa-times-circle"></i></button>
+      	<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -138,7 +122,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="container">
+							<div class="container-fluid">
 								<table class="table bg-white">
 									<thead>
 										<tr>
