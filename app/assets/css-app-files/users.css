@@ -11,6 +11,10 @@
    	background-color: #f3f3f3;
 }
 
+.dashboard-wrapper .container-fluid:first-child{
+	background-color: white !important;
+}
+
 .links{
 	font-family: 'Titillium Web';
 	width: 100%;

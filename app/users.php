@@ -19,10 +19,10 @@
 	</head>
 	<body>
 		<div class="dashboard-wrapper pt-3">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<div class="container-fluid">
-						<div class="links col-12 rounded text-white">
+						<div class="links col-12 rounded text-white mt-3">
 							<a href="dashboard.php" style="color: #8CC2FF">Home</a><span> / Users</span>
 						</div>
 						<div>
