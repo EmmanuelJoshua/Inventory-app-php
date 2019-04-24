@@ -128,7 +128,6 @@
 									<thead>
 										<tr>
 											<th scope="col">User Name</th>
-											<th scope="col">Role</th>
 											<th scope="col">Last Login</th>
 											<th scope="col">Options</th>
 										</tr>
@@ -136,7 +135,6 @@
 									<tbody>
 										<tr>
 											<td>Daniel Ilondu</td>
-											<td>Admin</td>
 											<td>Unknown</td>
 											<td><div class="nav-item dropdown show">
 												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
