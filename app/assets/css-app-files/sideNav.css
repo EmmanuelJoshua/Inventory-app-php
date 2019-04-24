@@ -30,9 +30,9 @@
 	display: block;
     color: #555;
     font-family: 'Titillium Web';
-    font-size: 17px;
+    font-size: 14px;
     padding: 10px 0;
-
+    text-transform: uppercase;
 }
 
 .nav-left-sidebar .nav-link{

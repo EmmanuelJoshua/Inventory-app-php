@@ -51,8 +51,8 @@
         <form class="form-horizontal">
   <div class="form-group mb-3">
     <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    <div class="">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" style="width: 70%;">
     </div>
   </div>
   <div class="form-group mb-3">
@@ -70,6 +70,7 @@
 </form>
       </div>
       <div class="modal-footer">
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal">Close<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -107,6 +108,7 @@
 </form>
       </div>
       <div class="modal-footer">
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal">Close<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
@@ -122,29 +124,11 @@
         </button>
       </div>
       <div class="modal-body">
-        <form class="form-horizontal">
-  <div class="form-group mb-3">
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-  </div>
-  <div class="form-group mb-3">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Role:</label>
-    <div class="col-sm-10"> 
-      <input type="text" class="form-control" id="pwd" placeholder="Enter Role">
-    </div>
-  </div>
-</form>
+        <h4>Do you want to delete this user?</h4>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+      	<button type="button" class="btn btn-primary" data-dismiss="modal">No<i class="fas fa-times-circle"></i></button>
+        <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
   </div>
@@ -155,7 +139,7 @@
 						</div>
 						<div class="row">
 							<div class="container">
-								<table class="table">
+								<table class="table bg-white">
 									<thead>
 										<tr>
 											<th scope="col">User Name</th>
