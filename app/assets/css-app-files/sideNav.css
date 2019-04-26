@@ -29,7 +29,7 @@
 .nav-left-sidebar .nav-item a{
 	display: block;
     color: #555;
-    font-family: 'Titillium Web';
+    font-family: 'Titillium Web' ,'Open Sans';
     font-size: 12px;
     padding: 10px 0;
     text-transform: uppercase;

@@ -19,11 +19,34 @@
 	</head>
 	<body>
 		<div class="dashboard-wrapper">
-			<div class="container">
-				<div class="dash-display rounded bg-white mx-auto text-center mb-5">
-					<h3>Dashboard</h3>
+				<div class="dash-display mb-3">
+					<h1>Dashboard</h1>
 				</div>
-			</div>
+
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col-5 mx-auto bg-white rounded dash-content">
+							<span>Logged in as</span>
+							<hr>
+							<span>Daniel Ilondu</span>
+						</div>
+
+						<div class="col-5 mx-auto bg-white rounded dash-content">
+							<span>Date</span>
+							<hr>
+							<span>Time</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row mb-3">
+						<div class="dash-header rounded col-7 mx-auto bg-white text-center">
+							<h2>Palace Petroleum</h2>
+						</div>		
+					</div>
+				</div>
+
 		</div>
 	</body>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

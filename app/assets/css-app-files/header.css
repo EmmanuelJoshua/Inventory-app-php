@@ -54,7 +54,7 @@
 }
 
 .navbar-brand{
-	font-family: 'Titillium Web';
+	font-family: 'Titillium Web','Open Sans';
 	display: inline-block;
     margin-right: 1rem;
     line-height: inherit;

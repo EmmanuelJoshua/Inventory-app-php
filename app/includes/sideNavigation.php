@@ -18,19 +18,19 @@
         <nav class="navbar-white bg-transparent">
             <ul class="navbar-nav flex-column pt-2">
               <li class="nav-item ">
-                <a class="nav-link" href="#"><i class="fas fa-box-open"></i><span>Products</span></a>
+                <a class="nav-link" href="products.php"><i class="fas fa-box-open"></i><span>Products</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-truck"></i><span>Tanks</span></a>
+                <a class="nav-link" href="tanks.php"><i class="fas fa-truck"></i><span>Tanks</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-tags"></i></i><span>Prices</span></a>
+                <a class="nav-link" href="prices.php"><i class="fas fa-tags"></i></i><span>Prices</span></a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
+                <a class="nav-link" href="fuelPump.php"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
+                <a class="nav-link" href="supplies.php"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-users"></i><span>Suppliers</span></a>
