@@ -32,7 +32,7 @@
 		<link rel="stylesheet" href="../app/assets/css-app-files/login.css">
 		<!-- Font CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
@@ -88,8 +88,7 @@
 					</div>
 				</div>
 			</div>
-		</header>
-		<div id="footer">
+			<div id="footer">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-6 col-12">
@@ -101,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		
+		</header>
 	</body>
 	<script type="text/javascript" src="../app/assets/js-app-files/login.js"></script>
 </html>

@@ -35,7 +35,7 @@
                 </div>
               </li>
               <li class="nav-item pr-2" style="border: none;">
-                <a class="btn btn-primary" href="#">Logout<i class="fas fa-sign-out-alt"></i></a>
+                <a class="btn btn-primary" href="index.php">Logout<i class="fas fa-sign-out-alt"></i></a>
               </li>
             </ul>
           </div>
