@@ -42,7 +42,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ClosingDippingModal"><i class="fas fa-user-plus"></i></h5>
+        <h5 class="modal-title" id="ClosingDippingModal"><i class="fas fa-edit"></i></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -77,7 +77,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="registerTankModal"><i class="fas fa-user-edit"></i></h5>
+        <h5 class="modal-title" id="registerTankModal"><i class="far fa-plus-square"></i></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -113,25 +113,6 @@
     </div>
   </div>
 </div>
-<div class="modal fade" id="deleteUser" tabindex="-1" role="dialog" aria-labelledby="deleteUserModal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="deleteUserModal"><i class="fas fa-user-times"></i></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h4>Do you want to delete this user?</h4>
-      </div>
-      <div class="modal-footer">
-      	<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-        <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
-      </div>
-    </div>
-  </div>
-</div> 
 									</div>
 								</div>
 							</div>
@@ -187,7 +168,7 @@
 								</tbody>
 							</table>
 						</div>
-						<div id="tankLedger">
+						<div id="tankLedger" class="d-none">
 							<table class="table bg-white">
 									<thead>
 										<tr style="font-size: 14px;">
@@ -218,7 +199,7 @@
 								</tbody>
 							</table>
 						</div>
-						<div id="tankSummary">
+						<div id="tankSummary" class="d-none">
 							<table class="table bg-white">
 									<thead>
 										<tr>
