@@ -32,12 +32,10 @@
                   <div class="form-inline">
                     <select class="form-control col-md-2 col-3">
                       <option>Search by</option>
-                      <option>Name</option>
-                      <option>Role</option>
                     </select>
                     <input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
                     
-                    <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="addUserModal" aria-hidden="true">
+           <!--          <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="addUserModal" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -115,7 +113,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
