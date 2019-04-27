@@ -65,6 +65,10 @@
     /*font-weight: 500;*/
 }
 
+.nav-user-img{
+	cursor: pointer;
+}
+
 .nav-user-img img{
 	width: 40px;
 	height: 40px;

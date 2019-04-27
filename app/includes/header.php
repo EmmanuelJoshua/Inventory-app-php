@@ -19,7 +19,7 @@
       <div class="dashboard-header">
         <nav class="navbar navbar-expand bg-white fixed-top">
           <div class="header-wrapper">
-            <a class="navbar-brand" href="#">Palace Petroleum</a>
+            <a class="navbar-brand">Palace Petroleum</a>
           </div>
           <div class=" navbar-collapse">
             <ul class="navbar-nav ml-auto navbar-right-top">
@@ -27,7 +27,7 @@
                 <span class="nav-link" id="timeSpan"></span>
               </li>
               <li class="nav-item nav-user dropdown show mr-3 pr-2">
-                <a class="nav-user-img dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-user-img dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img src="../app/assets/images/icons8-male-user-50.png">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">

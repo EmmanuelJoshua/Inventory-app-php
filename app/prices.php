@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Products | Palace Petroleum</title>
+		<title>Prices | Palace Petroleum</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Website Icon -->
 		<link rel="icon" href="">

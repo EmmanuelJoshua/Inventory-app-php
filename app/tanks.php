@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Products | Palace Petroleum</title>
+		<title>Tanks | Palace Petroleum</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Website Icon -->
 		<link rel="icon" href="">
@@ -37,7 +37,7 @@
 										</select>
 										<input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
 										
-<div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="addUserModal" aria-hidden="true">
+<!-- <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="addUserModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -115,7 +115,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 									</div>
 								</div>
 							</div>
