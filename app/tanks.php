@@ -195,15 +195,19 @@
 								<table class="table bg-white">
 									<thead>
 										<tr>
-											<th scope="col">Options</th>
 											<th scope="col">Tank Name</th>
 											<th scope="col">Product Code</th>
 											<th scope="col">Product Descriptions</th>
 											<th scope="col">Date Added</th>
+											<th scope="col">Options</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
 											<td><div class="nav-item dropdown show">
 												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 												Actions
@@ -213,11 +217,7 @@
 													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteTank">Delete<i class="fas fa-trash-alt ml-4"></i></button>
 												</div>
 											</div>
-										</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>		
+										</td>		
 										</tr>
 								</tbody>
 							</table>
