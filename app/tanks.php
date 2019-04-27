@@ -42,7 +42,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ClosingDippingModal"><i class="fas fa-edit"></i></h5>
+        <h5 class="modal-title" id="ClosingDippingModal"><i class="fas fa-plus-square"></i></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -77,7 +77,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="registerTankModal"><i class="far fa-plus-square"></i></h5>
+        <h5 class="modal-title" id="registerTankModal"><i class="fas fa-plus-square"></i></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -109,6 +109,60 @@
       <div class="modal-footer">
       	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="deleteTank" tabindex="-1" role="dialog" aria-labelledby="deleteTankModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteTankModal"><i class="fas fa-trash-alt"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<h4>Do you want to delete this tank?</h4>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+        <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="updateTank" tabindex="-1" role="dialog" aria-labelledby="updateTankModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateTankModal"><i class="fas fa-edit"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	       <form class="form-horizontal">
+  <div class="form-group mb-3">
+    <div class="col-sm-12">
+      <input type="text" class="form-control" placeholder="Enter Tank Name" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="text" class="form-control" placeholder="Enter Product Code" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter Product Description" style="width: 100%;">
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+        <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 80px !important;">Update<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
   </div>
@@ -155,8 +209,8 @@
 												Actions
 												</button>
 												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateUser">Edit<i class="fas fa-user-edit ml-4"></i></button>
-													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteUser">Delete<i class="fas fa-user-times ml-4"></i></button>
+													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateTank">Edit<i class="fas fa-edit ml-4"></i></button>
+													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteTank">Delete<i class="fas fa-trash-alt ml-4"></i></button>
 												</div>
 											</div>
 										</td>
