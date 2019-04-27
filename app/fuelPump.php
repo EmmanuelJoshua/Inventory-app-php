@@ -18,12 +18,12 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<body>
-		<div class="dashboard-wrapper">
+		<div class="dashboard-wrapper pt-3">
 			<div class="container">
 				<div class="row">
 					<div class="container-fluid">
 						<div class="links col-12 rounded text-white mt-3">
-							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> / Fuel Pump</span>
+							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Fuel Pump</span>
 						</div>
 					</div>
 				</div>

@@ -23,7 +23,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="links col-12 rounded text-white mt-3">
-							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> / Users</span>
+							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Users</span>
 						</div>
 						<div class="row">
 							<div class="container-fluid">
