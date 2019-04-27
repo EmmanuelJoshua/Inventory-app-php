@@ -28,20 +28,21 @@
 						<div class="row">
 							<div class="container-fluid">
 								<div class="mt-4 top-controls mb-1">
-									<button class="btn btn-primary mr-1" style="float: right; width: 180px !important;">Enter Closing Dipping</button>
+									<button class="btn btn-primary mr-1" style="float: right; width: 180px !important;" data-toggle="modal" data-target="#closingDipping">Enter Closing Dipping</button>
 									<div class="form-inline">
 										<select class="form-control col-md-2 col-3">
 											<option>Search by</option>
-											<option>Name</option>
-											<option>Ledger</option>
+											<option>Tank Name</option>
+											<option>Product Code</option>
+											<option>Product Description</option>
 										</select>
 										<input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
 										
-<!-- <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="addUserModal" aria-hidden="true">
+<div class="modal fade" id="closingDipping" tabindex="-1" role="dialog" aria-labelledby="closingDippingModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="addUserModal"><i class="fas fa-user-plus"></i></h5>
+        <h5 class="modal-title" id="ClosingDippingModal"><i class="fas fa-user-plus"></i></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -50,12 +51,57 @@
         <form class="form-horizontal">
   <div class="form-group mb-3">
     <div class="col-sm-12">
-      <input type="text" class="form-control" id="username" placeholder="Enter Username" style="width: 100%;">
+      <input type="text" class="form-control" placeholder="Enter Date" style="width: 100%;">
     </div>
   </div>
   <div class="form-group mb-3">
     <div class="col-sm-12"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 100%;">
+      <input type="text" class="form-control" placeholder="Enter Tank" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter Closing Dipping" style="width: 100%;">
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+        <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 80px !important;">Submit<i class="fas fa-check-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="registerTank" tabindex="-1" role="dialog" aria-labelledby="registerTankModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registerTankModal"><i class="fas fa-user-edit"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+  <div class="form-group mb-3">
+    <div class="col-sm-12">
+      <input type="text" class="form-control" placeholder="Enter Tank Name" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="text" class="form-control" placeholder="Enter Product Code" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter Product Description" style="width: 100%;">
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <div class="col-sm-12"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter Opening Stock" style="width: 100%;">
     </div>
   </div>
 </form>
@@ -63,36 +109,6 @@
       <div class="modal-footer">
       	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
         <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="updateUser" tabindex="-1" role="dialog" aria-labelledby="updateUserModal" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="updateUserModal"><i class="fas fa-user-edit"></i></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-horizontal">
-  <div class="form-group mb-3">
-    <div class="col-sm-12">
-      <input type="text" class="form-control" id="username" placeholder="Enter Username" style="width: 100%;">
-    </div>
-  </div>
-  <div class="form-group mb-3">
-    <div class="col-sm-12"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 100%;">
-    </div>
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-      	<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-        <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
       </div>
     </div>
   </div>
@@ -115,7 +131,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div> 
 									</div>
 								</div>
 							</div>
@@ -123,19 +139,67 @@
 						<div class="row">
 							<div class="container-fluid text-center">
 								<div class="top-controls mb-3">
-								<button class="btn btn-primary mr-1" style="width: 144px !important;">Register Tank<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" style="width: 144px !important;" data-toggle="modal" data-target="#registerTank">Register Tank<i class="fas fa-plus-circle"></i></button>
 							</div>
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="container-fluid">
+								<div class="top-controls2 mb-3">
+								<button class="btn topcontrolActive mr-1" style="width: 144px !important;">Tank</button>
+								<button class="btn mr-1" style="width: 144px !important;">Tank Ledger</button>
+								<button class="btn mr-1" style="width: 144px !important;">Tank Summary</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="container-fluid">
+								<div id="tank">
 								<table class="table bg-white">
 									<thead>
 										<tr>
-											<th scope="col">Tanks</th>
-											<th scope="col">Tank Ledger</th>
-											<th scope="col">Tank Summary</th>
+											<th scope="col">Options</th>
+											<th scope="col">Tank Name</th>
+											<th scope="col">Product Code</th>
+											<th scope="col">Product Descriptions</th>
+											<th scope="col">Date Added</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><div class="nav-item dropdown show">
+												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Actions
+												</button>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateUser">Edit<i class="fas fa-user-edit ml-4"></i></button>
+													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteUser">Delete<i class="fas fa-user-times ml-4"></i></button>
+												</div>
+											</div>
+										</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>		
+										</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="tankLedger">
+							<table class="table bg-white">
+									<thead>
+										<tr style="font-size: 14px;">
+											<th scope="col">Pump Name</th>
+											<th scope="col">Pump Sales</th>
+											<th scope="col">Pump Meter Margin</th>
+											<th scope="col">Opening Dipping</th>
+											<th scope="col">Closing Dipping</th>
+											<th scope="col">Date</th>
+											<th scope="col">Supply</th><th scope="col">Return</th>
+											<th scope="col">Expected</th>
+											<th scope="col">Total Margin</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -143,9 +207,39 @@
 											<td>Unknown</td>
 											<td>Unknown</td>
 											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
 										</tr>
 								</tbody>
 							</table>
+						</div>
+						<div id="tankSummary">
+							<table class="table bg-white">
+									<thead>
+										<tr>
+											<th scope="col">S/N</th>
+											<th scope="col">Tank Name</th>
+											<th scope="col">Product Code</th>
+											<th scope="col">Product Description</th>
+											<th scope="col">Current Balance</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+											<td>Unknown</td>		
+										</tr>
+								</tbody>
+							</table>
+						</div>
 						</div>
 					</div>
 					</div>
