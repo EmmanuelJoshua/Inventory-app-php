@@ -10,7 +10,7 @@
 		<!--Bootstrap -->
 		<link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
 		<!-- Website Stylesheet -->
-		<link rel="stylesheet" href="../app/assets/css-app-files/users.css">
+		<link rel="stylesheet" href="../app/assets/css-app-files/style.css">
 		<!-- Font CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
@@ -135,7 +135,7 @@
 											<td>Daniel Ilondu</td>
 											<td>Unknown</td>
 											<td><div class="nav-item dropdown show">
-												<button class="btn dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<button class="btn dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 												Actions
 												</button>
 												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">

@@ -30,13 +30,13 @@
 								<div class="mt-4 top-controls mb-1">
 									<button class="btn btn-primary mr-1" style="float: right; width: 180px !important;" data-toggle="modal" data-target="#closingDipping">Enter Closing Dipping</button>
 									<div class="form-inline">
-										<select class="custom-select form-control col-md-2 col-3">
+										<select class="custom-select form-control col-md-2 col-5">
 											<option>Search by</option>
 											<option>Tank Name</option>
 											<option>Product Code</option>
 											<option>Product Description</option>
 										</select>
-										<input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
+										<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
 										
 <div class="modal fade" id="closingDipping" tabindex="-1" role="dialog" aria-labelledby="closingDippingModal" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -182,9 +182,9 @@
 						<div class="row">
 							<div class="container-fluid">
 								<div class="top-controls2 mb-3">
-								<button class="btn topcontrolActive mr-1" style="width: 144px !important;">Tank</button>
-								<button class="btn mr-1" style="width: 144px !important;">Tank Ledger</button>
-								<button class="btn mr-1" style="width: 144px !important;">Tank Summary</button>
+								<button class="btn topcontrolActive mr-1" style="width: 90px !important;">Tank</button>
+								<button class="btn mr-1" style="width: 130px !important;">Tank Ledger</button>
+								<button class="btn mr-1" style="width: 130px !important;">Tank Summary</button>
 								</div>
 							</div>
 						</div>

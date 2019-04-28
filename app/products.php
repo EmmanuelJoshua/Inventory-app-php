@@ -30,10 +30,10 @@
                 <div class="mt-4 top-controls mb-4">
                   <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
                   <div class="form-inline">
-                    <select class="custom-select form-control col-md-2 col-3">
+                    <select class="custom-select form-control col-md-2 col-5">
                       <option>Search by</option>
                     </select>
-                    <input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
+                    <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
                     
  <div class="modal fade" id="addProduct" tabindex="-1" role="dialog" aria-labelledby="addProductModal" aria-hidden="true">
                       <div class="modal-dialog" role="document">
@@ -151,8 +151,8 @@
                 <div class="row">
                   <div class="container-fluid">
                     <div class="top-controls2 mb-3">
-                      <button class="btn topcontrolActive mr-1" style="width: 144px !important;">Product</button>
-                      <button class="btn mr-1" style="width: 144px !important;">Product Ledger</button>
+                      <button class="btn topcontrolActive mr-1" style="width: 100px !important;">Product</button>
+                      <button class="btn mr-1" style="width: 134px !important;">Product Ledger</button>
                       <button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
                     </div>
               </div>
