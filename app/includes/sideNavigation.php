@@ -27,31 +27,31 @@
                 <a class="nav-link" href="prices.php"><i class="fas fa-tags"></i></i><span>Prices</span></a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="fuelPump.php"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
+                <a class="nav-link" href="pump.php"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="supplies.php"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-users"></i><span>Suppliers</span></a>
+                <a class="nav-link" href="suppliers.php"><i class="fas fa-users"></i><span>Suppliers</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-friends"></i><span>Customers/Buyers</span></a>
+                <a class="nav-link" href="customers.php"><i class="fas fa-user-friends"></i><span>Customers/Buyers</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="far fa-credit-card"></i><span>Payment</span></a>
+                <a class="nav-link" href="payment.php"><i class="far fa-credit-card"></i><span>Payment</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-university"></i><span>Bank</span></a>
+                <a class="nav-link" href="bank.php"><i class="fas fa-university"></i><span>Bank</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-cash-register"></i><span>Expenses/Purchases</span></a>
+                <a class="nav-link" href="expenses_purchase.php"><i class="fas fa-cash-register"></i><span>Expenses/Purchases</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i><span>Invoice</span></a>
+                <a class="nav-link" href="invoice.php"><i class="fas fa-file-invoice"></i><span>Invoice</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-file-invoice"></i><span>Income/Expenditure</span></a>
+                <a class="nav-link" href="income_expenditure.php"><i class="fas fa-file-invoice"></i><span>Income/Expenditure</span></a>
               </li>
             </ul>
       </div>
