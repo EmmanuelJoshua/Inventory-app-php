@@ -28,7 +28,7 @@
 						<div class="row">
 							<div class="container-fluid">
 								<div class="mt-4 top-controls mb-4">
-									<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addUser" style="    float: right;">Add<i class="fas fa-plus-circle"></i></button>
+									<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addUser" style="float: right;">Add<i class="fas fa-plus-circle"></i></button>
 									<div class="form-inline">
 										<select class="form-control col-md-2 col-3">
 											<option>Search by</option>
@@ -135,7 +135,7 @@
 											<td>Daniel Ilondu</td>
 											<td>Unknown</td>
 											<td><div class="nav-item dropdown show">
-												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<button class="btn dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 												Actions
 												</button>
 												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">

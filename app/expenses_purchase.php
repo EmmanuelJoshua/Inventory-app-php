@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Fuel Pump | Palace Petroleum</title>
+		<title>Expenses/Purchase | Palace Petroleum</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Website Icon -->
 		<link rel="icon" href="">
@@ -23,7 +23,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="links col-12 rounded text-white mt-3">
-							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Fuel Pump</span>
+							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Expenses/Purchase</span>
 						</div>
 					</div>
 				</div>
