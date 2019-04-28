@@ -223,6 +223,11 @@
 							</table>
 						</div>
 						<div id="tankLedger" class="d-none">
+							<div>
+                  <h5 class="productTitle">Tank Name :</h5>
+                  <h5 class="productTitle">Product In Tank :</h5>
+                  <h5 class="productTitle">Balance Of Product In Tank :</h5>
+                			</div>
 							<table class="table bg-white">
 									<thead>
 										<tr style="font-size: 14px;">
@@ -254,6 +259,9 @@
 							</table>
 						</div>
 						<div id="tankSummary" class="d-none">
+							<div>
+                  <h5 class="productTitle">Tank Summary as of :</h5>
+                </div>
 							<table class="table bg-white">
 									<thead>
 										<tr>

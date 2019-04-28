@@ -159,7 +159,7 @@
             </div>
             <div class="row">
               <div class="container-fluid">
-                <div id="product">
+                <div id="product" class="">
                 <table class="table bg-white">
                   <thead>
                     <tr>
@@ -204,6 +204,11 @@
                       <option>Products</option>
                     </select>
               </div>
+              <div class="mt-3">
+                  <h5 class="productTitle">Product Name :</h5>
+                  <h5 class="productTitle">Product Code :</h5>
+                  <h5 class="productTitle">Show Balance :</h5>
+                      </div>
                 <table class="table bg-white mt-4">
                   <thead>
                     <tr>
@@ -232,7 +237,7 @@
               </div>
               <div id="productSummary" class="d-none">
                 <div>
-                  <h5>Product Summary as of </h5>
+                  <h5 class="productTitle">Product Summary as of :</h5>
                 </div>
                 <table class="table bg-white">
                   <thead>
