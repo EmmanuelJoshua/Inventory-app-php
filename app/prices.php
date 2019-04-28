@@ -10,7 +10,7 @@
 		<!--Bootstrap -->
 		<link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
 		<!-- Website Stylesheet -->
-		<link rel="stylesheet" href="../app/assets/css-app-files/prices.css">
+		<link rel="stylesheet" href="../app/assets/css-app-files/style.css">
 		<!-- Font CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">

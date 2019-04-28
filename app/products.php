@@ -80,12 +80,11 @@
                         </div>
                       </div>
                     </div>
-                    <!--
-                    <div class="modal fade" id="updateUser" tabindex="-1" role="dialog" aria-labelledby="updateUserModal" aria-hidden="true">
+                    <div class="modal fade" id="editProduct" tabindex="-1" role="dialog" aria-labelledby="editProductModal" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="updateUserModal"><i class="fas fa-user-edit"></i></h5>
+                            <h5 class="modal-title" id="editProductModal"><i class="fas fa-user-edit"></i></h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
@@ -94,12 +93,27 @@
                             <form class="form-horizontal">
                               <div class="form-group mb-3">
                                 <div class="col-sm-12">
-                                  <input type="text" class="form-control" id="username" placeholder="Enter Username" style="width: 100%;">
+                                  <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
                                 </div>
                               </div>
                               <div class="form-group mb-3">
                                 <div class="col-sm-12">
-                                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 100%;">
+                                  <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
                                 </div>
                               </div>
                             </form>
@@ -111,7 +125,6 @@
                         </div>
                       </div>
                     </div>
-                  -->
                     <div class="modal fade" id="deleteProduct" tabindex="-1" role="dialog" aria-labelledby="deleteProductModal" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -140,13 +153,13 @@
                     <div class="top-controls2 mb-3">
                       <button class="btn topcontrolActive mr-1" style="width: 144px !important;">Product</button>
                       <button class="btn mr-1" style="width: 144px !important;">Product Ledger</button>
-                      <button class="btn mr-1" style="width: 144px !important;">Product Summary</button>
+                      <button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
                     </div>
               </div>
             </div>
             <div class="row">
               <div class="container-fluid">
-                <div id="tank">
+                <div id="product">
                 <table class="table bg-white">
                   <thead>
                     <tr>
@@ -174,11 +187,70 @@
                         Actions
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateTank">Edit<i class="fas fa-edit ml-4"></i></button>
+                          <button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editProduct">Edit<i class="fas fa-edit ml-4"></i></button>
                           <button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
                         </div>
                       </div>
                     </td>   
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="productLedger" class="d-none">
+              <div class="top-controls">
+                  <div class="form-inline">
+                    <label style="font-family: dosis !important;">Select Product</label>
+                    <select class="form-control ml-1 col-md-2 col-4">
+                      <option>Products</option>
+                    </select>
+              </div>
+                <table class="table bg-white mt-4">
+                  <thead>
+                    <tr>
+                      <th scope="col">Date</th>
+                      <th scope="col">Particulars</th>
+                      <th scope="col">Description</th>
+                      <th scope="col">Ref No</th>
+                      <th scope="col">In(Supply)</th>
+                      <th scope="col">Out(Sales)</th>
+                      <th scope="col">Balance</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+              </div>
+              <div id="productSummary" class="d-none">
+                <div>
+                  <h5>Product Summary as of </h5>
+                </div>
+                <table class="table bg-white">
+                  <thead>
+                    <tr>
+                      <th scope="col">S/N</th>
+                      <th scope="col">Product Code</th>
+                      <th scope="col">Product Name</th>
+                      <th scope="col">Description</th>
+                      <th scope="col">Current Balance</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
+                      <td>Unknown</td>
                     </tr>
                 </tbody>
               </table>
