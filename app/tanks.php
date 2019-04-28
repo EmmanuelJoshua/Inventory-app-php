@@ -30,7 +30,7 @@
 								<div class="mt-4 top-controls mb-1">
 									<button class="btn btn-primary mr-1" style="float: right; width: 180px !important;" data-toggle="modal" data-target="#closingDipping">Enter Closing Dipping</button>
 									<div class="form-inline">
-										<select class="form-control col-md-2 col-3">
+										<select class="custom-select form-control col-md-2 col-3">
 											<option>Search by</option>
 											<option>Tank Name</option>
 											<option>Product Code</option>
@@ -191,7 +191,7 @@
 
 						<div class="row">
 							<div class="container-fluid">
-								<div id="tank">
+								<div id="tank" class="">
 								<table class="table bg-white">
 									<thead>
 										<tr>
@@ -223,10 +223,14 @@
 							</table>
 						</div>
 						<div id="tankLedger" class="d-none">
+							<div class="top-controls">
+                  <div class="form-inline">
+                    <select class="form-control ml-1 col-md-2 col-4 mb-2">
+                      <option>Select Tank</option>
+                    </select>
+              </div>
 							<div>
                   <h5 class="productTitle">Tank Name :</h5>
-                  <h5 class="productTitle">Product In Tank :</h5>
-                  <h5 class="productTitle">Balance Of Product In Tank :</h5>
                 			</div>
 							<table class="table bg-white">
 									<thead>

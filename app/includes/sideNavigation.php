@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#"><i class="far fa-credit-card"></i><span>Payment</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-university"></i><span>Bank</span></a>
+                <a class="nav-link" href="bank.php"><i class="fas fa-university"></i><span>Bank</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-cash-register"></i><span>Expenses/Purchases</span></a>

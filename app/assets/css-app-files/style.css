@@ -26,9 +26,8 @@
 
 
 .top-controls .btn{
-	margin-left: 5px;
 	font-family: Dosis;
-	border: 1px solid #242849;
+	border: none;
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	width: 70px !important;
@@ -50,8 +49,8 @@
 }
 
 .top-controls .form-control{
-	font-family: Dosis;
-	border: 1px solid #242849;
+	font-family: 'Titillium Web';
+	border: none;
 	height: 38px;
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
@@ -99,7 +98,7 @@
 .table .dropdown .btn{
 	margin-top: -5px;
 	font-family: Dosis;
-	border: 1px solid #242849;
+	border: none;
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	width: 80px !important;

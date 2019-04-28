@@ -30,7 +30,7 @@
                 <div class="mt-4 top-controls mb-4">
                   <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
                   <div class="form-inline">
-                    <select class="form-control col-md-2 col-3">
+                    <select class="custom-select form-control col-md-2 col-3">
                       <option>Search by</option>
                     </select>
                     <input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
