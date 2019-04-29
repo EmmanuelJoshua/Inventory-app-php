@@ -28,7 +28,8 @@
 						<div class="row">
 							<div class="container-fluid">
 								<div class="mt-4 top-controls">
-									<button class="btn btn-primary mr-1 mb-4" data-toggle="modal" data-target="#createBank" style="float: right; width: 140px !important;">Create Bank<i class="fas fa-plus-circle"></i></button>
+									<button class="btn btn-primary mr-1 mb-4" data-toggle="modal" data-target="#createBank" style="width: 140px !important;">Create Bank<i class="fas fa-plus-circle"></i></button>
+                  <button class="btn btn-primary mr-1 mb-4" data-toggle="modal" data-target="#bankDeposit" style="float: right; width: 140px !important;">Bank Deposit</button>
 									<div class="modal fade" id="createBank" tabindex="-1" role="dialog" aria-labelledby="createBankModal" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -63,6 +64,58 @@
                               <div class="form-group mb-3">
                                 <div class="col-sm-12">
                                   <input type="text" class="form-control"placeholder="Enter Opening Balance" style="width: 100%;">
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+                            <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal fade" id="bankDeposit" tabindex="-1" role="dialog" aria-labelledby="bankDepositModal" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="bankDepositModal"><i class="fas fa-plus-square"></i></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form class="form-horizontal">
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <select class="custom-select form-control">
+                                    <option>Bank Name</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="date" class="form-control" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Depositor" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Amount" style="width: 100%;">
+                                </div>
+                              </div>
+                              <div class="form-group mb-3">
+                                <div class="col-sm-12">
+                                  <input type="text" class="form-control"placeholder="Enter Teller Number" style="width: 100%;">
                                 </div>
                               </div>
                             </form>
@@ -178,44 +231,6 @@
                 </tbody>
               </table>
             </div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="container-fluid">
-						<h5 class="productTitle">Bank Deposit</h5>
-					<form>
-					<div class="form-row">
-				    <div class="form-group col-md-5">
-				     <select class="custom-select form-control">
-				     	<option>Bank Name</option>
-				     </select>
-				    </div>
-				  	</div>
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="date" class="form-control" placeholder="">
-				    </div>
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Depositor">
-				    </div>
-				  	</div>
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Description">
-				    </div>
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Teller Number">
-				    </div>
-				  	</div>
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Amount">
-				    </div>
-				    <div class="form-group col-md-1">
-				     	<input type="submit" class="form-control" value="Submit">
-				    </div>
-				  	</div>
-					</form>
 					</div>
 				</div>
 			</div>
