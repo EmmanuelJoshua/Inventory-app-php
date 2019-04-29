@@ -56,6 +56,33 @@
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
+.form-row .form-control{
+	font-family: 'Titillium Web';
+	border: none;
+	height: 38px;
+	border-radius: .25rem;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.form-group input[type=submit]{
+	font-family: Dosis;
+	border: none;
+	cursor: pointer;
+	border-radius: .25rem;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    height: 38px;
+    text-transform: uppercase;
+    font-weight: 500;
+	color: #343a40 !important;
+	background-color: #fafbfc;
+	transition: all 0.5s ease-in-out;
+}
+
+.form-group input[type=submit]:hover{
+	background-color: #242849;
+	color: #fff !important;
+}
+
 .top-controls2 button{
 	font-family: Dosis;
 	border-radius: .25rem;
@@ -83,7 +110,7 @@
 	background-color: #242849;
 	height: 40px;
 	font-family: 'Titillium Web';
-	font-size: 18px;
+	font-size: 17px;
 	border-radius: .25rem;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	color: #fff !important;

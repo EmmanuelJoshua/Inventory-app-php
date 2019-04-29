@@ -180,6 +180,44 @@
             </div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="container-fluid">
+						<h5 class="productTitle">Bank Deposit</h5>
+					<form>
+					<div class="form-row">
+				    <div class="form-group col-md-5">
+				     <select class="custom-select form-control">
+				     	<option>Bank Name</option>
+				     </select>
+				    </div>
+				  	</div>
+				  	<div class="form-row">
+				    <div class="form-group col-md-5">
+				     	<input type="date" class="form-control" placeholder="">
+				    </div>
+				    <div class="form-group col-md-5">
+				     	<input type="text" class="form-control" placeholder="Depositor">
+				    </div>
+				  	</div>
+				  	<div class="form-row">
+				    <div class="form-group col-md-5">
+				     	<input type="text" class="form-control" placeholder="Description">
+				    </div>
+				    <div class="form-group col-md-5">
+				     	<input type="text" class="form-control" placeholder="Teller Number">
+				    </div>
+				  	</div>
+				  	<div class="form-row">
+				    <div class="form-group col-md-5">
+				     	<input type="text" class="form-control" placeholder="Amount">
+				    </div>
+				    <div class="form-group col-md-1">
+				     	<input type="submit" class="form-control" value="Submit">
+				    </div>
+				  	</div>
+					</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
