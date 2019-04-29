@@ -18,148 +18,158 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
+    <!-- DASHBOARD WRAPPER -->
     <div class="dashboard-wrapper pt-3">
       <div class="container">
+        <!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
         <div class="row">
           <div class="container-fluid">
             <div class="links col-12 rounded text-white mt-3">
               <a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Products</span>
             </div>
-            <div class="row">
-              <div class="container-fluid">
-                <div class="mt-4 top-controls mb-4">
-                  <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
-                  <div class="form-inline">
-                    <select class="custom-select form-control col-md-2 col-5">
-                      <option>Search by</option>
-                    </select>
-                    <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
-                    
- <div class="modal fade" id="addProduct" tabindex="-1" role="dialog" aria-labelledby="addProductModal" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="addProductModal"><i class="fas fa-plus-square"></i></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <form class="form-horizontal">
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-                            <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="modal fade" id="editProduct" tabindex="-1" role="dialog" aria-labelledby="editProductModal" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="editProductModal"><i class="fas fa-user-edit"></i></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <form class="form-horizontal">
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
-                                </div>
-                              </div>
-                              <div class="form-group mb-3">
-                                <div class="col-sm-12">
-                                  <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-                            <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="modal fade" id="deleteProduct" tabindex="-1" role="dialog" aria-labelledby="deleteProductModal" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="deleteProductModal"><i class="fas fa-trash-alt"></i></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <h4>Do you want to delete this product?</h4>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-                            <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="container-fluid">
-                    <div class="top-controls2 mb-3">
-                      <button class="btn topcontrolActive mr-1" style="width: 100px !important;">Product</button>
-                      <button class="btn mr-1" style="width: 134px !important;">Product Ledger</button>
-                      <button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
-                    </div>
+          </div>
+        </div>
+        <!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
+        <div class="row">
+          <div class="container-fluid">
+            <div class="mt-4 top-controls mb-4">
+              <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
+              <div class="form-inline">
+                <select class="custom-select form-control col-md-2 col-5">
+                  <option>Search by</option>
+                </select>
+                <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
               </div>
             </div>
-            <div class="row">
+          </div>
+        </div>
+        <!-- DIV CONTAINING MODALS -->
+        <div class="top-controls">
+          <div class="modal fade" id="addProduct" tabindex="-1" role="dialog" aria-labelledby="addProductModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="addProductModal"><i class="fas fa-plus-square"></i></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form class="form-horizontal">
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+                  <button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="editProduct" tabindex="-1" role="dialog" aria-labelledby="editProductModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="editProductModal"><i class="fas fa-user-edit"></i></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form class="form-horizontal">
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+                  <button type="button" class="btn btn-primary pl-1 pr-1" style="width: 90px !important;">Update<i class="fas fa-check-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="deleteProduct" tabindex="-1" role="dialog" aria-labelledby="deleteProductModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="deleteProductModal"><i class="fas fa-trash-alt"></i></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h4>Do you want to delete this product?</h4>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+                  <button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container-fluid">
+            <div class="top-controls2 mb-3">
+              <button class="btn topcontrolActive mr-1" style="width: 100px !important;">Product</button>
+              <button class="btn mr-1" style="width: 134px !important;">Product Ledger</button>
+              <button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
+            </div>
+          </div>
+        </div>
+        <!-- CONTAINER FOR TABLES -->
+        <div class="row">
               <div class="container-fluid">
+                <!-- DIV FOR PRODUCT -->
                 <div id="product" class="">
+                  <div class="table-responsive">
                 <table class="table bg-white">
                   <thead>
                     <tr>
@@ -196,6 +206,8 @@
                 </tbody>
               </table>
             </div>
+            </div>
+            <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
             <div id="productLedger" class="d-none">
               <div class="top-controls">
                   <div class="form-inline">
@@ -235,6 +247,7 @@
               </table>
             </div>
               </div>
+              <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
               <div id="productSummary" class="d-none">
                 <div>
                   <h5 class="productTitle">Product Summary as of :</h5>
@@ -262,8 +275,6 @@
             </div>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   </body>
