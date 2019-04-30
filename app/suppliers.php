@@ -55,6 +55,7 @@
 				</div>
 				<!-- DIV CONTAINING MODALS -->
 				<div class="top-controls">
+					<!-- REGISTER SUPPLIER MODAL -->
 					<div class="modal fade" id="registerSupplier" tabindex="-1" role="dialog" aria-labelledby="registerSupplierModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -105,6 +106,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- EDIT SUPPLIER MODAL -->
 					<div class="modal fade" id="editSupplier" tabindex="-1" role="dialog" aria-labelledby="editSupplierModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -155,6 +157,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- DELETE SUPPLIER MODAL -->
 					<div class="modal fade" id="deleteSupplier" tabindex="-1" role="dialog" aria-labelledby="deleteSupplierModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -216,7 +219,7 @@
 							</table>
 						</div>
 					</div>
-					<!-- DIV FOR SUPPLIERS LEDGER -->
+					<!-- DIV FOR SUPPLIERS LEDGER (Display set to none) -->
 					<div id="supplierLedger" class="d-none">
 						<div class="top-controls">
 							<div class="form-inline">
@@ -255,7 +258,7 @@
 						</div>
 						</div>
 					</div>
-					<!-- DIV FOR SUPPLIERS STATUS -->
+					<!-- DIV FOR SUPPLIERS STATUS (Display set to none) -->
 					<div id="supplierStatus" class="d-none">
 						<div>
 							<h5 class="productTitle">Supplier Status as of :</h5>

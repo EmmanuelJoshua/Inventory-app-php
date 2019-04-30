@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- EXPENSE/PURCHASE -->
+				<!-- EXPENSE/PURCHASE FORM -->
 				<div class="row">
 					<div class="container-fluid">
 						<form>

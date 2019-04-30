@@ -44,6 +44,7 @@
 				</div>
 				<!-- DIV CONTAINING MODALS -->
 				<div class="top-controls">
+					<!-- ADD PRICE CATEGORY MODAL -->
 					<div class="modal fade" id="addPriceCategory" tabindex="-1" role="dialog" aria-labelledby="addPriceModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -87,6 +88,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- EDIT PRICE CATEGORY MODAL -->
 					<div class="modal fade" id="editPriceCategory" tabindex="-1" role="dialog" aria-labelledby="editPriceModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -122,6 +124,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- DELETE PRICE CATEGORY MODAL -->
 					<div class="modal fade" id="deletePrice" tabindex="-1" role="dialog" aria-labelledby="deletePriceModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">

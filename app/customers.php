@@ -55,6 +55,7 @@
 				</div>
 				<!-- DIV CONTAINING MODALS -->
 				<div class="top-controls">
+					<!-- REGISTER CUSTOMER MODAL -->
 					<div class="modal fade" id="registerCustomer" tabindex="-1" role="dialog" aria-labelledby="registerCustomerModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -110,6 +111,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- EDIT CUSTOMER MODAL -->
 					<div class="modal fade" id="editCustomer" tabindex="-1" role="dialog" aria-labelledby="editCustomerModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -165,6 +167,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- DELETE CUSTOMER MODAL -->
 					<div class="modal fade" id="deleteCustomer" tabindex="-1" role="dialog" aria-labelledby="deleteCustomerModal" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
