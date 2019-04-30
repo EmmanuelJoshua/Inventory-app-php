@@ -212,8 +212,7 @@
             <div id="productLedger" class="d-none">
               <div class="top-controls">
                   <div class="form-inline">
-                    <label style="font-family: dosis !important;">Select Product</label>
-                    <select class="form-control ml-1 col-md-2 col-4">
+                    <select class="form-control col-md-2 col-4">
                       <option>Products</option>
                     </select>
               </div>
