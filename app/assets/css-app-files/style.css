@@ -117,6 +117,10 @@
 	padding: 10px 15px;
 }
 
+.modal-body h4{
+	font-family: 'Titillium Web';
+}
+
 .table{
 	font-family: 'Titillium Web';
 	font-size: 0.98em;

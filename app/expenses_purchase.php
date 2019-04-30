@@ -46,46 +46,53 @@
 				<!-- EXPENSE/PURCHASE -->
 				<div class="row">
 					<div class="container-fluid">
-					<form>
-				<!-- 	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     <select class="custom-select form-control">
-				     	<option>Bank Name</option>
-				     </select>
-				    </div>
-				  	</div> -->
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="date" class="form-control" placeholder="Date">
-				    </div>
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Particulars">
-				    </div>
-				  	</div>
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Description">
-				    </div>
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Ref">
-				    </div>
-				  	</div>
-				  	<div class="form-row">
-				    <div class="form-group col-md-5">
-				     	<input type="text" class="form-control" placeholder="Amount">
-				    </div>
-				    <div class="form-group col-md-1">
-				     	<input type="submit" class="form-control" value="Submit">
-				    </div>
-				  	</div>
-					</form>
+						<form>
+							<div class="form-row">
+								<div class="form-group col-md-5">
+									<input type="date" class="form-control" placeholder="Date">
+								</div>
+								<div class="form-group col-md-5">
+									<input type="text" class="form-control" placeholder="Particulars">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-5">
+									<input type="text" class="form-control" placeholder="Description">
+								</div>
+								<div class="form-group col-md-5">
+									<input type="text" class="form-control" placeholder="Ref">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-5">
+									<input type="text" class="form-control" placeholder="Amount">
+								</div>
+								<div class="form-group col-md-1">
+									<input type="submit" class="form-control" value="Submit">
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 				<!-- TABLE -->
 				<div class="row">
 					<div class="container-fluid">
 						<div id="product" class="">
+							<!-- BLUE HEADER -->
 							<h5 class="productTitle">Expense/Purchase Ledger</h5>
+							<div class="row">
+								<div class="container-fluid">
+									<div class="mt-2 top-controls mb-2">
+										<div class="form-inline">
+											<select class="custom-select form-control col-md-2 col-5">
+												<option>Search by</option>
+												<option>Cash Expense</option>
+												<option>Bank Expense</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
 							<table class="table bg-white">
 								<thead>
 									<tr>
@@ -105,13 +112,13 @@
 										<td>Unknown</td>
 										<td>Unknown</td>
 										<td>Unknown</td>
-								</tr>
-							</tbody>
-						</table>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

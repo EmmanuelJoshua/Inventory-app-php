@@ -37,9 +37,6 @@
 							<div class="form-inline">
 								<select class="custom-select form-control col-md-4 col-10">
 									<option>Select Price Category</option>
-									<option>Price Category X</option>
-									<option>Price Category Y</option>
-									<option>Price Category Z</option>
 								</select>
 							</div>
 						</div>
@@ -148,6 +145,7 @@
 				<!-- CONTAINER FOR TABLES -->
 				<div class="row">
 					<div class="container-fluid">
+						<!-- BLUE HEADER -->
 						<h5 class="productTitle">Price Category :</h5>
 							<div class="table-responsive">
 								<table class="table bg-white">
