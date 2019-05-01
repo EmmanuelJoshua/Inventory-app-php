@@ -33,92 +33,111 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="mt-4 top-controls mb-4">
+							<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#enterExpense" style="float: right; width: 244px !important;">Enter Expenses/Purchases<i class="fas fa-plus-circle"></i></button>
 							<div class="form-inline">
-								<select class="custom-select form-control col-md-3 col-5">
-									<option>Select Expenses Type</option>
-									<option>Cash Expenses</option>
-									<option>Bank Expenses</option>
+								<select class="custom-select form-control col-md-2 col-5">
+									<option>Search by</option>
+									<option>Cash Expense</option>
+									<option>Bank Expense</option>
 								</select>
+								<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- EXPENSE/PURCHASE FORM -->
-				<div class="row">
-					<div class="container-fluid">
-						<form>
-							<div class="form-row">
-								<div class="form-group col-md-5">
-									<input type="date" class="form-control" placeholder="Date">
+				<!-- DIV CONTAINING MODALS -->
+				<div class="top-controls">
+					<!-- ENTER EXPENSES MODAL -->
+					<div class="modal fade" id="enterExpense" tabindex="-1" role="dialog" aria-labelledby="enterExpenseModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="enterExpenseModal"><i class="fas fa-plus-square"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
 								</div>
-								<div class="form-group col-md-5">
-									<input type="text" class="form-control" placeholder="Particulars">
+								<div class="modal-body">
+									<form class="form-horizontal">
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<select class="custom-select form-control">
+													<option>Select Expense Type</option>
+													<option>Cash Expenses</option>
+													<option>Bank Expenses</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="date" class="form-control">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Particular" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Ref" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Amount" style="width: 100%;">
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
 								</div>
 							</div>
-							<div class="form-row">
-								<div class="form-group col-md-5">
-									<input type="text" class="form-control" placeholder="Description">
-								</div>
-								<div class="form-group col-md-5">
-									<input type="text" class="form-control" placeholder="Ref">
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="form-group col-md-5">
-									<input type="text" class="form-control" placeholder="Amount">
-								</div>
-								<div class="form-group col-md-1">
-									<input type="submit" class="form-control" value="Submit">
-								</div>
-							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 				<!-- TABLE -->
 				<div class="row">
 					<div class="container-fluid">
 						<div id="product" class="">
-							<!-- BLUE HEADER -->
-							<h5 class="productTitle">Expense/Purchase Ledger</h5>
-							<div class="row">
-								<div class="container-fluid">
-									<div class="mt-2 top-controls mb-2">
-										<div class="form-inline">
-											<select class="custom-select form-control col-md-2 col-5">
-												<option>Search by</option>
-												<option>Cash Expense</option>
-												<option>Bank Expense</option>
-											</select>
-										</div>
-									</div>
-								</div>
+							<div class="table-responsive">
+								<table class="table bg-white">
+									<thead>
+										<tr>
+											<th scope="col">Date</th>
+											<th scope="col">Particulars</th>
+											<th scope="col">Description</th>
+											<th scope="col">Expenses Type</th>
+											<th scope="col">Ref</th>
+											<th scope="col">Amount</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
-							<table class="table bg-white">
-								<thead>
-									<tr>
-										<th scope="col">Date</th>
-										<th scope="col">Particulars</th>
-										<th scope="col">Description</th>
-										<th scope="col">Expenses Type</th>
-										<th scope="col">Ref</th>
-										<th scope="col">Amount</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-									</tr>
-								</tbody>
-							</table>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
