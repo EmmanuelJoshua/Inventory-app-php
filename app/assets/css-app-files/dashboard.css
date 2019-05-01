@@ -1,16 +1,60 @@
 .dashboard-wrapper{
    	position: relative;
+   	/*z-index: 9999;*/
     left: 0;
     margin-top: 60px !important;
     margin-left: 200px;
     height: 100%;
    	background-color: #f3f3f3;
-   	padding-top: 80px;
 }
 
 .dash-display{
-	width: 600px;
+	background-color: #242849;
+	/*z-index: 999*/;
+	width: 100%;
 	height: 60px;
+}
+
+.dash-display h1{
+	font-family: 'Titillium Web','Open Sans';
+	display: inline-block;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-left: 0.5em;
+    padding: 17px 10px;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+
+.dash-content{
+	padding: 0 !important;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.dash-content span{
+	font-family: 'Open Sans';
+    margin-left: 0.5em;
+    margin-bottom: -1em;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.dash-content hr{
+	content: '';
+    display: block;
+    height: 0.3px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.dash-header{
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
+	height: 70px;
 }
 
 @media only screen and (max-width: 900px){
