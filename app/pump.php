@@ -104,7 +104,7 @@
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
 												<select class="custom-select form-control">
-													<option>Select Sources Of Product</option>
+													<option>Select Tank</option>
 												</select>
 											</div>
 										</div>
