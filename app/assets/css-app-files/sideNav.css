@@ -35,6 +35,11 @@
     text-transform: uppercase;
 }
 
+.navbar-active{
+   /* color: #242849 !important;
+    border-left: 4px solid #242849;*/
+}
+
 .nav-left-sidebar .nav-link{
 	border-left: 5px solid #fff;
 }
@@ -44,9 +49,7 @@
 }
 
 .sidebar-dark.nav-left-sidebar .navbar-nav .nav-link.active {
-    background-color: #242849;
-    color: #fff;
-   	border-left: 4px solid #3A85FF;
+    
 }
 
 @media only screen and (max-width: 900px){
