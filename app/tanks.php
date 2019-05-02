@@ -58,9 +58,9 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="top-controls2 mb-3">
-							<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Product</button>
-							<button class="btn mr-1" style="width: 138px !important;">Product Ledger</button>
-							<button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
+							<button class="btn topcontrolActive mr-1" style="width: 70px !important;">Tank</button>
+							<button class="btn mr-1" style="width: 110px !important;">Tank Ledger</button>
+							<button class="btn mr-1" style="width: 124px !important;">Tank Summary</button>
 						</div>
 					</div>
 				</div>
