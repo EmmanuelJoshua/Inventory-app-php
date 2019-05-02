@@ -32,23 +32,12 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 top-controls mb-4">
-							<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addUser" style="float: right; width: 105px !important;">Add User<i class="fas fa-plus-circle"></i></button>
-							<div class="form-inline">
-								<select class="form-control col-md-2 col-3">
-									<option>Search by</option>
-									<option>Name</option>
-									<option>Role</option>
-								</select>
-								<input type="text" name="" class="form-control ml-1 col-md-2 col-4" placeholder="">
-							</div>
-						</div>
 						<div class="row">
 							<div class="container-fluid">
 								<div class="mt-4 top-controls mb-4">
-									<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addUser" style="    float: right;">Add<i class="fas fa-plus-circle"></i></button>
+									<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addUser" style="float: right; width: 105px !important;">Add User<i class="fas fa-plus-circle"></i></button>
 									<div class="form-inline">
-										<select class="form-control col-md-2 col-3">
+										<select class="custom-select form-control col-md-2 col-3">
 											<option>Search by</option>
 											<option>Name</option>
 											<option>Role</option>
