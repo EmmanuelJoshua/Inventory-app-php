@@ -92,7 +92,9 @@
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Tank Of Discharge" style="width: 100%;">
+												<select class="custom-select form-control">
+													<option>Select Tank Of Discharge</option>
+												</select>
 											</div>
 										</div>
 										<div class="form-group mb-3">
