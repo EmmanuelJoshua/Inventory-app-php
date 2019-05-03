@@ -9,6 +9,8 @@
     <link rel="icon" href="">
     <!--Bootstrap -->
     <link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="../app/assets/libraries/css-libs/Animate.css">
     <!-- Website Stylesheet -->
     <link rel="stylesheet" href="../app/assets/css-app-files/style.css">
     <!-- Font CDN -->
@@ -162,9 +164,9 @@
         <div class="row">
           <div class="container-fluid">
             <div class="top-controls2 mb-3">
-              <button class="btn topcontrolActive mr-1" style="width: 100px !important;">Product</button>
-              <button class="btn mr-1" style="width: 134px !important;">Product Ledger</button>
-              <button class="btn mr-1" style="width: 150px !important;">Product Summary</button>
+              <button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="p1">Product</button>
+              <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
+              <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
             </div>
           </div>
         </div>
@@ -172,7 +174,7 @@
         <div class="row">
               <div class="container-fluid">
                 <!-- DIV FOR PRODUCT -->
-                <div id="product" class="">
+                <div id="product" class="animated slideInUp">
                   <div class="table-responsive">
                 <table class="table bg-white">
                   <thead>
@@ -212,7 +214,7 @@
             </div>
             </div>
             <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
-            <div id="productLedger" class="d-none">
+            <div id="productLedger" class="d-none animated slideInUp">
               <div class="top-controls">
                   <div class="form-inline">
                     <select class="form-control col-md-2 col-4">
@@ -251,7 +253,7 @@
             </div>
               </div>
               <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
-              <div id="productSummary" class="d-none">
+              <div id="productSummary" class="d-none animated slideInUp">
                 <div>
                   <h5 class="productTitle">Product Summary as of :</h5>
                 </div>
@@ -284,4 +286,63 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+
+    var navProd1 = document.getElementById('p1');
+    var navProd2 = document.getElementById('p2');
+    var navProd3 = document.getElementById('p3');
+
+    let productSummary = document.querySelector('#productSummary');
+    let productledger  = document.querySelector('#productLedger');
+    let product = document.querySelector('#product');
+
+    //productLedger EventListener
+    navProd2.addEventListener('click',(e)=>{
+        console.log('aaaa');
+        product.style.display = "none";
+        productSummary.classList.remove('d-block');
+        productSummary.classList.add('d-none');
+        productledger.classList.remove('d-none');
+        productledger.style.display = "block";
+        product.classList.add('d-none');
+        product.classList.remove('d-block');
+        
+		navProd2.classList.add("topcontrolActive");
+    navProd3.classList.remove("topcontrolActive");
+    navProd1.classList.remove("topcontrolActive");
+    });
+
+    //productSummary EventListener
+    navProd3.addEventListener('click',(e)=>{
+        console.log('sum');
+        product.style.display = "none";
+        productledger.classList.remove('d-block');
+        productledger.classList.add('d-none');
+        productSummary.classList.remove('d-none');
+        productSummary.style.display = "block";
+        product.classList.add('d-none');
+        product.classList.remove('d-block');
+        
+		navProd3.classList.add("topcontrolActive");
+    navProd2.classList.remove("topcontrolActive");
+    navProd1.classList.remove("topcontrolActive");
+		
+    });
+
+    navProd1.addEventListener('click',(e)=>{
+
+      product.classList.add('d-block');
+      productledger.classList.remove('d-block');
+        productledger.classList.add('d-none');
+        productSummary.classList.remove('d-block');
+        productSummary.classList.add('d-none');
+
+    navProd1.classList.add("topcontrolActive");
+    navProd2.classList.remove("topcontrolActive");
+    navProd3.classList.remove("topcontrolActive");
+    })
+
+  </script>
+
 </html>
