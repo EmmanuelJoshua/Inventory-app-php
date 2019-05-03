@@ -32,14 +32,14 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 mb-4">
-							<div class="top-controls">
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="float: right; width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style="float: right; width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
-							</div>
-							<div class="top-controls2">
+						<div class="row mb-4">
+							<div class="col-md-6 top-controls2 mt-4">
 								<button class="btn topcontrolActive mr-1" style="width: 120px !important;">Payment Sent</button>
 								<button class="btn mr-1" style="width: 150px !important;">Payment Received</button>
+							</div>
+							<div class="col-md-6 top-controls text-right mt-4">
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style=" width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>

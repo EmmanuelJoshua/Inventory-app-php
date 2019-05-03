@@ -32,16 +32,15 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 top-controls mb-1">
-							<button class="btn btn-primary mr-1" style="float: right; width: 180px !important;" data-toggle="modal" data-target="#closingDipping">Enter Closing Dipping</button>
-							<div class="form-inline">
-								<select class="custom-select form-control col-md-2 col-5">
-									<option>Search by</option>
-									<option>Tank Name</option>
-									<option>Product Code</option>
-									<option>Product Description</option>
-								</select>
-								<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+						<div class="row mb-4">
+							<!-- SECTION SWITCHING BUTTONS -->
+							<div class="col-md-6 top-controls2 mt-4">
+								<button class="btn topcontrolActive mr-1" style="width: 70px !important;">Tank</button>
+								<button class="btn mr-1" style="width: 110px !important;">Tank Ledger</button>
+								<button class="btn mr-1" style="width: 124px !important;">Tank Summary</button>
+							</div>
+							<div class="col-md-6 top-controls text-right mt-4">
+								<button class="btn btn-primary mr-1" style="width: 144px !important;" data-toggle="modal" data-target="#registerTank">Register Tank<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
@@ -50,17 +49,7 @@
 				<div class="row">
 					<div class="container-fluid text-center">
 						<div class="top-controls mb-3">
-							<button class="btn btn-primary mr-1" style="width: 144px !important;" data-toggle="modal" data-target="#registerTank">Register Tank<i class="fas fa-plus-circle"></i></button>
-						</div>
-					</div>
-				</div>
-				<!-- SECTION SWITCHING BUTTONS -->
-				<div class="row">
-					<div class="container-fluid">
-						<div class="top-controls2 mb-3">
-							<button class="btn topcontrolActive mr-1" style="width: 70px !important;">Tank</button>
-							<button class="btn mr-1" style="width: 110px !important;">Tank Ledger</button>
-							<button class="btn mr-1" style="width: 124px !important;">Tank Summary</button>
+							<button class="btn btn-primary mr-1" style="width: 180px !important;" data-toggle="modal" data-target="#closingDipping">Enter Closing Dipping</button>
 						</div>
 					</div>
 				</div>
@@ -203,39 +192,47 @@
 				<!-- CONTAINER FOR TABLES -->
 				<div class="row">
 					<div class="container-fluid">
-						 <!-- DIV FOR TANK -->
+						<!-- DIV FOR TANK -->
 						<div id="tank" class="">
+							<div class="top-controls mb-4">
+								<div class="form-inline">
+									<select class="custom-select form-control col-md-2 col-5">
+										<option>Search by</option>
+									</select>
+									<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+								</div>
+							</div>
 							<div class="table-responsive">
-							<table class="table bg-white">
-								<thead>
-									<tr>
-										<th scope="col">Tank Name</th>
-										<th scope="col">Product Code</th>
-										<th scope="col">Product Descriptions</th>
-										<th scope="col">Date Added</th>
-										<th scope="col">Options</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td><div class="nav-item dropdown show">
-											<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Actions
-											</button>
-											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-												<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateTank">Edit<i class="fas fa-edit ml-4"></i></button>
-												<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteTank">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+								<table class="table bg-white">
+									<thead>
+										<tr>
+											<th scope="col">Tank Name</th>
+											<th scope="col">Product Code</th>
+											<th scope="col">Product Descriptions</th>
+											<th scope="col">Date Added</th>
+											<th scope="col">Options</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td><div class="nav-item dropdown show">
+												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Actions
+												</button>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#updateTank">Edit<i class="fas fa-edit ml-4"></i></button>
+													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteTank">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+												</div>
 											</div>
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 					<!-- DIV FOR TANK LEDGER (Display is set to none) -->
 					<div id="tankLedger" class="d-none">

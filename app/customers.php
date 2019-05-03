@@ -32,27 +32,20 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 top-controls mb-4">
-							<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerCustomer" style="float: right; width: 180px !important;">Register Customer<i class="fas fa-plus-circle"></i></button>
-							<div class="form-inline">
-								<select class="custom-select form-control col-md-2 col-5">
-									<option>Search by</option>
-								</select>
-								<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+						<div class="row mb-4">
+							<div class="col-md-6 top-controls2 mt-4">
+								<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Customer</button>
+								<button class="btn mr-1" style="width: 150px !important;">Customer Ledger</button>
+								<button class="btn mr-1" style="width: 150px !important;">Customer Status</button>
+							</div>
+							<div class="col-md-6 top-controls text-right mt-4">
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerCustomer" style="width: 180px !important;">Register Customer<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- SECTION SWITCHING BUTTONS -->
-				<div class="row">
-					<div class="container-fluid">
-						<div class="top-controls2 mb-3">
-							<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Customer</button>
-							<button class="btn mr-1" style="width: 150px !important;">Customer Ledger</button>
-							<button class="btn mr-1" style="width: 150px !important;">Customer Status</button>
-						</div>
-					</div>
-				</div>
+				
 				<!-- DIV CONTAINING MODALS -->
 				<div class="top-controls">
 					<!-- REGISTER CUSTOMER MODAL -->
@@ -193,6 +186,14 @@
 					<div class="container-fluid">
 						<!-- DIV FOR CUSTOMER -->
 						<div id="customer" class="">
+							<div class="top-controls mb-4">
+								<div class="form-inline">
+									<select class="custom-select form-control col-md-2 col-5">
+										<option>Search by</option>
+									</select>
+									<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+								</div>
+							</div>
 							<div class="table-responsive">
 								<table class="table bg-white">
 									<thead>

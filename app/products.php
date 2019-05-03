@@ -34,13 +34,14 @@
         <!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
         <div class="row">
           <div class="container-fluid">
-            <div class="mt-4 top-controls mb-4">
-              <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
-              <div class="form-inline">
-                <select class="custom-select form-control col-md-2 col-5">
-                  <option>Search by</option>
-                </select>
-                <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+            <div class="row mb-4">
+              <div class="col-md-6 top-controls2 mt-4">
+                <button class="btn topcontrolActive mr-1" style="width: 80px !important;" id="p1">Product</button>
+                <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
+                <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
+              </div>
+              <div class="col-md-6 top-controls text-right mt-4">
+                <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style=" width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
               </div>
             </div>
           </div>
@@ -160,22 +161,20 @@
             </div>
           </div>
         </div>
-        <!-- SECTION SWITCHING BUTTONS -->
-        <div class="row">
-          <div class="container-fluid">
-            <div class="top-controls2 mb-3">
-              <button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="p1">Product</button>
-              <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
-              <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
-            </div>
-          </div>
-        </div>
         <!-- CONTAINER FOR TABLES -->
         <div class="row">
-              <div class="container-fluid">
-                <!-- DIV FOR PRODUCT -->
-                <div id="product" class="animated fadeIn">
-                  <div class="table-responsive">
+          <div class="container-fluid">
+            <!-- DIV FOR PRODUCT -->
+            <div id="product" class="animated fadeIn">
+              <div class="top-controls mb-4">
+                <div class="form-inline">
+                  <select class="custom-select form-control col-md-2 col-5">
+                    <option>Search by</option>
+                  </select>
+                  <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+                </div>
+              </div>
+              <div class="table-responsive">
                 <table class="table bg-white">
                   <thead>
                     <tr>
@@ -207,25 +206,26 @@
                           <button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
                         </div>
                       </div>
-                    </td>   
-                    </tr>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
-            </div>
-            <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
-            <div id="productLedger" class="d-none animated fadeIn">
-              <div class="top-controls">
-                  <div class="form-inline">
-                    <select class="form-control col-md-2 col-4">
-                      <option>Products</option>
-                    </select>
+          </div>
+          <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
+          <div id="productLedger" class="d-none animated fadeIn">
+            <div class="top-controls">
+              <div class="form-inline">
+                <select class="custom-select form-control col-md-2 col-4">
+                  <option>Products</option>
+                </select>
               </div>
               <div class="mt-3">
-                  <h5 class="productTitle">Product Name :</h5>
-                  <h5 class="productTitle">Product Code :</h5>
-                  <h5 class="productTitle">Show Balance :</h5>
-                      </div>
+                <h5 class="productTitle">Product Name :</h5>
+                <h5 class="productTitle">Product Code :</h5>
+                <h5 class="productTitle">Show Balance :</h5>
+              </div>
+              <div class="table-responsive">
                 <table class="table bg-white mt-4">
                   <thead>
                     <tr>
@@ -248,101 +248,100 @@
                       <td>Unknown</td>
                       <td>Unknown</td>
                     </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
+          <div id="productSummary" class="d-none animated fadeIn">
+            <div>
+              <h5 class="productTitle">Product Summary as of :</h5>
+            </div>
+            <div class="top-controls mb-4">
+              <div class="form-inline">
+                <select class="custom-select form-control col-md-2 col-5">
+                  <option>Search by</option>
+                </select>
+                <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+              </div>
+            </div>
+            <div>
+              <table class="table bg-white">
+                <thead>
+                  <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Product Code</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Current Balance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
-              </div>
-              <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
-              <div id="productSummary" class="d-none animated fadeIn">
-                <div>
-                  <h5 class="productTitle">Product Summary as of :</h5>
-                </div>
-                <table class="table bg-white">
-                  <thead>
-                    <tr>
-                      <th scope="col">S/N</th>
-                      <th scope="col">Product Code</th>
-                      <th scope="col">Product Name</th>
-                      <th scope="col">Description</th>
-                      <th scope="col">Current Balance</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                    </tr>
-                </tbody>
-              </table>
-            </div>
-              </div>
-            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+var navProd1 = document.getElementById('p1');
+var navProd2 = document.getElementById('p2');
+var navProd3 = document.getElementById('p3');
+let productSummary = document.querySelector('#productSummary');
+let productledger  = document.querySelector('#productLedger');
+let product = document.querySelector('#product');
+//productLedger EventListener
+navProd2.addEventListener('click',(e)=>{
+console.log('aaaa');
+product.style.display = "none";
+productSummary.classList.remove('d-block');
+productSummary.classList.add('d-none');
+productledger.classList.remove('d-none');
+productledger.style.display = "block";
+product.classList.add('d-none');
+product.classList.remove('d-block');
+navProd2.classList.add("topcontrolActive");
+navProd3.classList.remove("topcontrolActive");
+navProd1.classList.remove("topcontrolActive");
+});
+//productSummary EventListener
+navProd3.addEventListener('click',(e)=>{
+console.log('sum');
+product.style.display = "none";
+productledger.classList.remove('d-block');
+productledger.classList.add('d-none');
+productSummary.classList.remove('d-none');
+productSummary.style.display = "block";
+product.classList.add('d-none');
+product.classList.remove('d-block');
+navProd3.classList.add("topcontrolActive");
+navProd2.classList.remove("topcontrolActive");
+navProd1.classList.remove("topcontrolActive");
 
-  <script>
-
-    var navProd1 = document.getElementById('p1');
-    var navProd2 = document.getElementById('p2');
-    var navProd3 = document.getElementById('p3');
-
-    let productSummary = document.querySelector('#productSummary');
-    let productledger  = document.querySelector('#productLedger');
-    let product = document.querySelector('#product');
-
-    //productLedger EventListener
-    navProd2.addEventListener('click',(e)=>{
-        console.log('aaaa');
-        product.style.display = "none";
-        productSummary.classList.remove('d-block');
-        productSummary.classList.add('d-none');
-        productledger.classList.remove('d-none');
-        productledger.style.display = "block";
-        product.classList.add('d-none');
-        product.classList.remove('d-block');
-        
-		navProd2.classList.add("topcontrolActive");
-    navProd3.classList.remove("topcontrolActive");
-    navProd1.classList.remove("topcontrolActive");
-    });
-
-    //productSummary EventListener
-    navProd3.addEventListener('click',(e)=>{
-        console.log('sum');
-        product.style.display = "none";
-        productledger.classList.remove('d-block');
-        productledger.classList.add('d-none');
-        productSummary.classList.remove('d-none');
-        productSummary.style.display = "block";
-        product.classList.add('d-none');
-        product.classList.remove('d-block');
-        
-		navProd3.classList.add("topcontrolActive");
-    navProd2.classList.remove("topcontrolActive");
-    navProd1.classList.remove("topcontrolActive");
-		
-    });
-
-    navProd1.addEventListener('click',(e)=>{
-
-      product.classList.add('d-block');
-      productledger.classList.remove('d-block');
-        productledger.classList.add('d-none');
-        productSummary.classList.remove('d-block');
-        productSummary.classList.add('d-none');
-
-    navProd1.classList.add("topcontrolActive");
-    navProd2.classList.remove("topcontrolActive");
-    navProd3.classList.remove("topcontrolActive");
-    })
-
-  </script>
-
+});
+navProd1.addEventListener('click',(e)=>{
+product.classList.add('d-block');
+productledger.classList.remove('d-block');
+productledger.classList.add('d-none');
+productSummary.classList.remove('d-block');
+productSummary.classList.add('d-none');
+navProd1.classList.add("topcontrolActive");
+navProd2.classList.remove("topcontrolActive");
+navProd3.classList.remove("topcontrolActive");
+})
+</script>
 </html>

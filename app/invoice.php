@@ -39,8 +39,8 @@
 								<button class="btn mr-1" style="width: 130px !important;">Invoice Ledger</button>
 							</div>
 							<div class="col-md-6 top-controls text-right mt-4">
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style=" width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#createRegistered" style="width: 120px !important;">Registered<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#createUnregistered" style=" width: 140px !important;">Unregistered<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
