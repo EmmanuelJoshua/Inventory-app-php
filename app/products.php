@@ -174,7 +174,7 @@
         <div class="row">
               <div class="container-fluid">
                 <!-- DIV FOR PRODUCT -->
-                <div id="product" class="animated slideInUp">
+                <div id="product" class="animated fadeIn">
                   <div class="table-responsive">
                 <table class="table bg-white">
                   <thead>
@@ -214,7 +214,7 @@
             </div>
             </div>
             <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
-            <div id="productLedger" class="d-none animated slideInUp">
+            <div id="productLedger" class="d-none animated fadeIn">
               <div class="top-controls">
                   <div class="form-inline">
                     <select class="form-control col-md-2 col-4">
@@ -253,7 +253,7 @@
             </div>
               </div>
               <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
-              <div id="productSummary" class="d-none animated slideInUp">
+              <div id="productSummary" class="d-none animated fadeIn">
                 <div>
                   <h5 class="productTitle">Product Summary as of :</h5>
                 </div>
