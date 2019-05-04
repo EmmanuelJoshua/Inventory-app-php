@@ -256,7 +256,7 @@
           <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
           <div id="productSummary" class="d-none animated fadeIn">
             <div>
-              <h5 class="productTitle">Product Summary as of :</h5>
+              <h5 class="productTitle">Product Summary as at :</h5>
             </div>
             <div class="top-controls mb-4">
               <div class="form-inline">
