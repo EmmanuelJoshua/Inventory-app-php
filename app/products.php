@@ -223,7 +223,7 @@
               <div class="mt-3">
                 <h5 class="productTitle">Product Name :</h5>
                 <h5 class="productTitle">Product Code :</h5>
-                <h5 class="productTitle">Show Balance :</h5>
+                <h5 class="productTitle">Current Balance :</h5>
               </div>
               <div class="table-responsive">
                 <table class="table bg-white mt-4">
