@@ -43,6 +43,10 @@
 								<button class="btn topcontrolActive mr-1" style="width: 120px !important;" id="payBtn1">Payment Sent</button>
 								<button class="btn mr-1" style="width: 150px !important;" id="payBtn2">Payment Received</button>
 							</div>
+							<div class="col-md-6 top-controls text-right mt-4">
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style=" width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
+							</div>
 						</div>
 					</div>
 				</div>

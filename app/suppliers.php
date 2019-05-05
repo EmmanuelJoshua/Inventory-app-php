@@ -34,13 +34,15 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 top-controls mb-4">
-							<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerSupplier" style="float: right; width: 170px !important;">Register Supplier<i class="fas fa-plus-circle"></i></button>
-							<div class="form-inline">
-								<select class="custom-select form-control col-md-2 col-5">
-									<option>Search by</option>
-								</select>
-								<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+						<div class="row mb-4">
+							<!-- SECTION SWITCHING BUTTONS -->
+							<div class="col-md-6 top-controls2 mt-4">
+								<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Suppliers</button>
+								<button class="btn mr-1" style="width: 150px !important;">Suppliers Ledger</button>
+								<button class="btn mr-1" style="width: 150px !important;">Suppliers Status</button>
+							</div>
+							<div class="col-md-6 top-controls text-right mt-4">
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerSupplier" style="width: 170px !important;">Register Supplier<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
@@ -233,22 +235,51 @@
 								<h5 class="productTitle">Suppliers Name :</h5>
 							</div>
 							<div class="table-responsive">
-							<table class="table mt-4">
+								<table class="table mt-4">
+									<thead>
+										<tr>
+											<th scope="col">Date</th>
+											<th scope="col">Particulars</th>
+											<th scope="col">Description</th>
+											<th scope="col">Ref No</th>
+											<th scope="col">Supply</th>
+											<th scope="col">Payment</th>
+											<th scope="col">Balance</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+											<td>Unknown</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!-- DIV FOR SUPPLIERS STATUS (Display set to none) -->
+					<div id="supplierStatus" class="d-none">
+						<div>
+							<h5 class="productTitle">Supplier Status as of :</h5>
+						</div>
+						<div class="table-responsive">
+							<table class="table bg-white">
 								<thead>
 									<tr>
-										<th scope="col">Date</th>
-										<th scope="col">Particulars</th>
-										<th scope="col">Description</th>
-										<th scope="col">Ref No</th>
-										<th scope="col">Supply</th>
-										<th scope="col">Payment</th>
-										<th scope="col">Balance</th>
+										<th scope="col">Supplier Name</th>
+										<th scope="col">Supplier Of</th>
+										<th scope="col">Phone Number</th>
+										<th scope="col">Current Balance</th>
+										<th scope="col">Status</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>Unknown</td>
-										<td>Unknown</td>
 										<td>Unknown</td>
 										<td>Unknown</td>
 										<td>Unknown</td>

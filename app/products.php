@@ -34,13 +34,14 @@
         <!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
         <div class="row">
           <div class="container-fluid">
-            <div class="mt-4 top-controls mb-4">
-              <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style="float: right; width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
-              <div class="form-inline">
-                <select class="custom-select form-control col-md-2 col-5">
-                  <option>Search by</option>
-                </select>
-                <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+            <div class="row mb-4">
+              <div class="col-md-6 top-controls2 mt-4">
+                <button class="btn topcontrolActive mr-1" style="width: 80px !important;" id="p1">Product</button>
+                <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
+                <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
+              </div>
+              <div class="col-md-6 top-controls text-right mt-4">
+                <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style=" width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
               </div>
             </div>
           </div>
@@ -160,22 +161,20 @@
             </div>
           </div>
         </div>
-        <!-- SECTION SWITCHING BUTTONS -->
-        <div class="row">
-          <div class="container-fluid">
-            <div class="top-controls2 mb-3">
-              <button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="p1">Product</button>
-              <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
-              <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
-            </div>
-          </div>
-        </div>
         <!-- CONTAINER FOR TABLES -->
         <div class="row">
-              <div class="container-fluid">
-                <!-- DIV FOR PRODUCT -->
-                <div id="product" class="animated slideInUp">
-                  <div class="table-responsive">
+          <div class="container-fluid">
+            <!-- DIV FOR PRODUCT -->
+            <div id="product" class="animated fadeIn">
+              <div class="top-controls mb-4">
+                <div class="form-inline">
+                  <select class="custom-select form-control col-md-2 col-5">
+                    <option>Search by</option>
+                  </select>
+                  <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+                </div>
+              </div>
+              <div class="table-responsive">
                 <table class="table bg-white">
                   <thead>
                     <tr>
@@ -207,25 +206,26 @@
                           <button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
                         </div>
                       </div>
-                    </td>   
-                    </tr>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
-            </div>
-            <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
-            <div id="productLedger" class="d-none animated slideInUp">
-              <div class="top-controls">
-                  <div class="form-inline">
-                    <select class="form-control col-md-2 col-4">
-                      <option>Products</option>
-                    </select>
+          </div>
+          <!-- DIV FOR PRODUCT LEDGER (Display is set to none) -->
+          <div id="productLedger" class="d-none animated fadeIn">
+            <div class="top-controls">
+              <div class="form-inline">
+                <select class="custom-select form-control col-md-2 col-4">
+                  <option>Products</option>
+                </select>
               </div>
               <div class="mt-3">
-                  <h5 class="productTitle">Product Name :</h5>
-                  <h5 class="productTitle">Product Code :</h5>
-                  <h5 class="productTitle">Show Balance :</h5>
-                      </div>
+                <h5 class="productTitle">Product Name :</h5>
+                <h5 class="productTitle">Product Code :</h5>
+                <h5 class="productTitle">Current Balance :</h5>
+              </div>
+              <div class="table-responsive">
                 <table class="table bg-white mt-4">
                   <thead>
                     <tr>
@@ -248,38 +248,48 @@
                       <td>Unknown</td>
                       <td>Unknown</td>
                     </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
+          <div id="productSummary" class="d-none animated fadeIn">
+            <div>
+              <h5 class="productTitle">Product Summary as at :</h5>
+            </div>
+            <div class="top-controls mb-4">
+              <div class="form-inline">
+                <select class="custom-select form-control col-md-2 col-5">
+                  <option>Search by</option>
+                </select>
+                <input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+              </div>
+            </div>
+            <div>
+              <table class="table bg-white">
+                <thead>
+                  <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Product Code</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Current Balance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
-              </div>
-              <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
-              <div id="productSummary" class="d-none animated slideInUp">
-                <div>
-                  <h5 class="productTitle">Product Summary as of :</h5>
-                </div>
-                <table class="table bg-white">
-                  <thead>
-                    <tr>
-                      <th scope="col">S/N</th>
-                      <th scope="col">Product Code</th>
-                      <th scope="col">Product Name</th>
-                      <th scope="col">Description</th>
-                      <th scope="col">Current Balance</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                      <td>Unknown</td>
-                    </tr>
-                </tbody>
-              </table>
-            </div>
-              </div>
-            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
@@ -346,4 +356,16 @@
 
   </script>
 
+});
+navProd1.addEventListener('click',(e)=>{
+product.classList.add('d-block');
+productledger.classList.remove('d-block');
+productledger.classList.add('d-none');
+productSummary.classList.remove('d-block');
+productSummary.classList.add('d-none');
+navProd1.classList.add("topcontrolActive");
+navProd2.classList.remove("topcontrolActive");
+navProd3.classList.remove("topcontrolActive");
+})
+</script>
 </html>
