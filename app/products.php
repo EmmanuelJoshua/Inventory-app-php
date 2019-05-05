@@ -288,7 +288,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <script>
-
+    //Declaring global variables
     var navProd1 = document.getElementById('p1');
     var navProd2 = document.getElementById('p2');
     var navProd3 = document.getElementById('p3');
@@ -297,9 +297,9 @@
     let productledger  = document.querySelector('#productLedger');
     let product = document.querySelector('#product');
 
-    //productLedger EventListener
+    //productLedger button EventListener
     navProd2.addEventListener('click',(e)=>{
-        console.log('aaaa');
+       // console.log('aaaa');
         product.style.display = "none";
         productSummary.classList.remove('d-block');
         productSummary.classList.add('d-none');
@@ -308,14 +308,14 @@
         product.classList.add('d-none');
         product.classList.remove('d-block');
         
-		navProd2.classList.add("topcontrolActive");
-    navProd3.classList.remove("topcontrolActive");
-    navProd1.classList.remove("topcontrolActive");
+		    navProd2.classList.add("topcontrolActive");
+        navProd3.classList.remove("topcontrolActive");
+        navProd1.classList.remove("topcontrolActive");
     });
 
-    //productSummary EventListener
+    //productSummary button EventListener
     navProd3.addEventListener('click',(e)=>{
-        console.log('sum');
+        //console.log('sum');
         product.style.display = "none";
         productledger.classList.remove('d-block');
         productledger.classList.add('d-none');
@@ -324,23 +324,24 @@
         product.classList.add('d-none');
         product.classList.remove('d-block');
         
-		navProd3.classList.add("topcontrolActive");
-    navProd2.classList.remove("topcontrolActive");
-    navProd1.classList.remove("topcontrolActive");
+		    navProd3.classList.add("topcontrolActive");
+        navProd2.classList.remove("topcontrolActive");
+        navProd1.classList.remove("topcontrolActive");
 		
     });
 
+    // product button EventListener
     navProd1.addEventListener('click',(e)=>{
 
       product.classList.add('d-block');
       productledger.classList.remove('d-block');
-        productledger.classList.add('d-none');
-        productSummary.classList.remove('d-block');
-        productSummary.classList.add('d-none');
+      productledger.classList.add('d-none');
+      productSummary.classList.remove('d-block');
+      productSummary.classList.add('d-none');
 
-    navProd1.classList.add("topcontrolActive");
-    navProd2.classList.remove("topcontrolActive");
-    navProd3.classList.remove("topcontrolActive");
+      navProd1.classList.add("topcontrolActive");
+      navProd2.classList.remove("topcontrolActive");
+      navProd3.classList.remove("topcontrolActive");
     })
 
   </script>

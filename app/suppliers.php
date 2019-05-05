@@ -9,6 +9,8 @@
 		<link rel="icon" href="">
 		<!--Bootstrap -->
 		<link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="../app/assets/libraries/css-libs/Animate.css">
 		<!-- Website Stylesheet -->
 		<link rel="stylesheet" href="../app/assets/css-app-files/style.css">
 		<!-- Font CDN -->
@@ -47,9 +49,9 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="top-controls2 mb-3">
-							<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Suppliers</button>
-							<button class="btn mr-1" style="width: 150px !important;">Suppliers Ledger</button>
-							<button class="btn mr-1" style="width: 150px !important;">Suppliers Status</button>
+							<button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="supBtn1">Suppliers</button>
+							<button class="btn mr-1" style="width: 150px !important;" id="supBtn2">Suppliers Ledger</button>
+							<button class="btn mr-1" style="width: 150px !important;" id="supBtn3">Suppliers Status</button>
 						</div>
 					</div>
 				</div>
@@ -182,7 +184,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<!-- DIV FOR SUPPLIERS -->
-						<div id="supplier" class="">
+						<div id="supplier" class="animated slideInUp">
 							<div class="table-responsive">
 								<table class="table bg-white">
 									<thead>
@@ -220,7 +222,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR SUPPLIERS LEDGER (Display set to none) -->
-					<div id="supplierLedger" class="d-none">
+					<div id="supplierLedger" class="d-none animated slideInUp">
 						<div class="top-controls">
 							<div class="form-inline">
 								<select class="custom-select form-control ml-1 col-md-2 col-4">
@@ -259,7 +261,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR SUPPLIERS STATUS (Display set to none) -->
-					<div id="supplierStatus" class="d-none">
+					<div id="supplierStatus" class="d-none animated slideInUp">
 						<div>
 							<h5 class="productTitle">Supplier Status as of :</h5>
 						</div>
@@ -294,4 +296,64 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+	//Declaring global variables
+	var btn1 = document.getElementById('supBtn1');
+	var btn2 = document.getElementById('supBtn2');
+	var btn3 = document.getElementById('supBtn3');
+
+	let suppStatus = document.querySelector('#supplierStatus');
+	let suppledger = document.querySelector('#supplierLedger');
+	let supp = document.querySelector('#supplier');
+
+	//supplierLedger button EventListener
+	btn2.addEventListener('click', (e) => {
+		//console.log('aaaa');
+		supp.style.display = "none";
+		suppStatus.classList.remove('d-block');
+		suppStatus.classList.add('d-none');
+		suppledger.classList.remove('d-none');
+		suppledger.style.display = "block";
+		supp.classList.add('d-none');
+		supp.classList.remove('d-block');
+
+		btn2.classList.add("topcontrolActive");
+		btn3.classList.remove("topcontrolActive");
+		btn1.classList.remove("topcontrolActive");
+	});
+
+	//supplierStatus button EventListener
+	btn3.addEventListener('click', (e) => {
+		//console.log('sum');
+		supp.style.display = "none";
+		suppledger.classList.remove('d-block');
+		suppledger.classList.add('d-none');
+		suppStatus.classList.remove('d-none');
+		suppStatus.classList.add('d-block');
+		supp.classList.add('d-none');
+		supp.classList.remove('d-block');
+
+		btn3.classList.add("topcontrolActive");
+		btn2.classList.remove("topcontrolActive");
+		btn1.classList.remove("topcontrolActive");
+
+	});
+
+	// suppliers button EventListener
+	btn1.addEventListener('click', (e) => {
+
+		supp.classList.add('d-block');
+		suppledger.classList.remove('d-block');
+		suppledger.classList.add('d-none');
+		suppStatus.classList.remove('d-block');
+		suppStatus.classList.add('d-none');
+
+		btn1.classList.add("topcontrolActive");
+		btn2.classList.remove("topcontrolActive");
+		btn3.classList.remove("topcontrolActive");
+	});
+
+</script>
+
 </html>

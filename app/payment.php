@@ -9,6 +9,8 @@
 		<link rel="icon" href="">
 		<!--Bootstrap -->
 		<link rel="stylesheet" href="../app/assets/libraries/css-libs/bootstrap.css">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="../app/assets/libraries/css-libs/Animate.css">
 		<!-- Website Stylesheet -->
 		<link rel="stylesheet" href="../app/assets/css-app-files/style.css">
 		<!-- Font CDN -->
@@ -38,8 +40,8 @@
 								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style="float: right; width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
 							</div>
 							<div class="top-controls2">
-								<button class="btn topcontrolActive mr-1" style="width: 120px !important;">Payment Sent</button>
-								<button class="btn mr-1" style="width: 150px !important;">Payment Received</button>
+								<button class="btn topcontrolActive mr-1" style="width: 120px !important;" id="payBtn1">Payment Sent</button>
+								<button class="btn mr-1" style="width: 150px !important;" id="payBtn2">Payment Received</button>
 							</div>
 						</div>
 					</div>
@@ -48,7 +50,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<!-- DIV FOR PAYMENT SENT -->
-						<div id="paymentSent" class="">
+						<div id="paymentSent" class="animated slideInUp">
 							<div class="top-controls mb-4">
 								<div class="form-inline">
 									<select class="custom-select form-control col-md-2 col-5">
@@ -94,7 +96,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR PAYMENT RECEIVED (Display is set to none)-->
-					<div id="paymentReceived" class="d-none">
+					<div id="paymentReceived" class="d-none animated slideInUp">
 						<div class="top-controls mb-4">
 							<div class="form-inline">
 								<select class="custom-select form-control col-md-2 col-5">
@@ -420,4 +422,38 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+	//Declaring global variables
+	var btn1 = document.getElementById('payBtn1');
+	var btn2 = document.getElementById('payBtn2');
+	
+	let paySent = document.querySelector('#paymentSent');
+	let payReceive = document.querySelector('#paymentReceived');
+	
+	//paymentSent button EventListener
+	btn2.addEventListener('click', (e) => {
+
+		payReceive.classList.remove('d-none');
+		payReceive.style.display = "block";
+		paySent.classList.add('d-none');
+		paySent.classList.remove('d-block');
+
+		btn2.classList.add("topcontrolActive");
+		btn1.classList.remove("topcontrolActive");
+	});
+
+	// paymentReceived button EventListener
+	btn1.addEventListener('click', (e) => {
+
+		paySent.classList.add('d-block');
+		payReceive.classList.remove('d-block');
+		payReceive.classList.add('d-none');
+
+		btn1.classList.add("topcontrolActive");
+		btn2.classList.remove("topcontrolActive");
+	});
+
+</script>
+
 </html>
