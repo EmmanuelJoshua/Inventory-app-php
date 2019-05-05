@@ -37,23 +37,13 @@
 						<div class="row mb-4">
 							<!-- SECTION SWITCHING BUTTONS -->
 							<div class="col-md-6 top-controls2 mt-4">
-								<button class="btn topcontrolActive mr-1" style="width: 100px !important;">Suppliers</button>
-								<button class="btn mr-1" style="width: 150px !important;">Suppliers Ledger</button>
-								<button class="btn mr-1" style="width: 150px !important;">Suppliers Status</button>
+								<button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="supBtn1">Suppliers</button>
+							<button class="btn mr-1" style="width: 150px !important;" id="supBtn2">Suppliers Ledger</button>
+							<button class="btn mr-1" style="width: 150px !important;" id="supBtn3">Suppliers Status</button>
 							</div>
 							<div class="col-md-6 top-controls text-right mt-4">
 								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerSupplier" style="width: 170px !important;">Register Supplier<i class="fas fa-plus-circle"></i></button>
 							</div>
-						</div>
-					</div>
-				</div>
-				<!-- SECTION SWITCHING BUTTONS -->
-				<div class="row">
-					<div class="container-fluid">
-						<div class="top-controls2 mb-3">
-							<button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="supBtn1">Suppliers</button>
-							<button class="btn mr-1" style="width: 150px !important;" id="supBtn2">Suppliers Ledger</button>
-							<button class="btn mr-1" style="width: 150px !important;" id="supBtn3">Suppliers Status</button>
 						</div>
 					</div>
 				</div>
@@ -186,7 +176,15 @@
 				<div class="row">
 					<div class="container-fluid">
 						<!-- DIV FOR SUPPLIERS -->
-						<div id="supplier" class="animated slideInUp">
+						<div id="supplier" class="animated fadeIn">
+							<div class="top-controls mb-4">
+								<div class="form-inline">
+									<select class="custom-select form-control col-md-2 col-5">
+										<option>Search by</option>
+									</select>
+									<input type="text" name="" class="form-control ml-1 col-md-2 col-5" placeholder="">
+								</div>
+							</div>
 							<div class="table-responsive">
 								<table class="table bg-white">
 									<thead>
@@ -224,7 +222,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR SUPPLIERS LEDGER (Display set to none) -->
-					<div id="supplierLedger" class="d-none animated slideInUp">
+					<div id="supplierLedger" class="d-none animated fadeIn">
 						<div class="top-controls">
 							<div class="form-inline">
 								<select class="custom-select form-control ml-1 col-md-2 col-4">
@@ -263,7 +261,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR SUPPLIERS STATUS (Display set to none) -->
-					<div id="supplierStatus" class="d-none">
+					<div id="supplierStatus" class="d-none animated fadeIn">
 						<div>
 							<h5 class="productTitle">Supplier Status as of :</h5>
 						</div>

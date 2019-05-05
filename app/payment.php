@@ -34,12 +34,8 @@
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="mt-4 mb-4">
-							<div class="top-controls">
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="float: right; width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style="float: right; width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
-							</div>
-							<div class="top-controls2">
+						<div class="row mb-4">
+							<div class="col-md-6 top-controls2 mt-4">
 								<button class="btn topcontrolActive mr-1" style="width: 120px !important;" id="payBtn1">Payment Sent</button>
 								<button class="btn mr-1" style="width: 150px !important;" id="payBtn2">Payment Received</button>
 							</div>
@@ -54,7 +50,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<!-- DIV FOR PAYMENT SENT -->
-						<div id="paymentSent" class="animated slideInUp">
+						<div id="paymentSent" class="animated fadeIn">
 							<div class="top-controls mb-4">
 								<div class="form-inline">
 									<select class="custom-select form-control col-md-2 col-5">
@@ -100,7 +96,7 @@
 						</div>
 					</div>
 					<!-- DIV FOR PAYMENT RECEIVED (Display is set to none)-->
-					<div id="paymentReceived" class="d-none animated slideInUp">
+					<div id="paymentReceived" class="d-none animated fadeIn">
 						<div class="top-controls mb-4">
 							<div class="form-inline">
 								<select class="custom-select form-control col-md-2 col-5">

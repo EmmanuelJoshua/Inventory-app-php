@@ -355,17 +355,4 @@
     })
 
   </script>
-
-});
-navProd1.addEventListener('click',(e)=>{
-product.classList.add('d-block');
-productledger.classList.remove('d-block');
-productledger.classList.add('d-none');
-productSummary.classList.remove('d-block');
-productSummary.classList.add('d-none');
-navProd1.classList.add("topcontrolActive");
-navProd2.classList.remove("topcontrolActive");
-navProd3.classList.remove("topcontrolActive");
-})
-</script>
 </html>
