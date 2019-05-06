@@ -39,8 +39,8 @@
 								<button class="btn mr-1" style="width: 130px !important;">Invoice Ledger</button>
 							</div>
 							<div class="col-md-6 top-controls text-right mt-4">
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style=" width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registeredInvoice" style="width: 170px !important;">Registered<i class="fas fa-plus-circle"></i></button>
+								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#unregisteredInvoice" style=" width: 140px !important;">Unregistered<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
@@ -159,6 +159,98 @@
 								</tr>
 							</tbody>
 						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- DIV CONTAINING MODALS -->
+	<div class="top-controls">
+		<!-- CREATE INVOICE FOR REGISTERED CUSTOMERS MODAL -->
+		<div class="modal fade" id="registeredInvoice" tabindex="-1" role="dialog" aria-labelledby="registeredInvoiceModal" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="registeredInvoiceModal"><i class="fas fa-plus-square mr-2"></i>Create Invoice for Registered Customers</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group mb-3">
+								<div class="col-sm-12">
+									<input type="text" class="form-control" placeholder="Enter Customer's Name">
+								</div>
+								<div class=" top-controls col-sm-3 mt-3">
+									<input type="button" class="btn" value="Submit">
+								</div>
+							</div>
+							<div class="form-group mb-3">
+								<div class="col-sm-12">
+									<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+								</div>
+							</div>
+							<div class="form-group mb-3">
+								<div class="col-sm-12">
+									<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+						<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CREATE INVOICE FOR UNREGISTERED CUSTOMERS MODAL -->
+		<div class="modal fade" id="unregisteredInvoice" tabindex="-1" role="dialog" aria-labelledby="unregisteredInvoiceModal" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="unregisteredInvoiceModal"><i class="fas fa-plus-square mr-2"></i>Create Invoice for Unregistered Customers</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group mb-3">
+								<div class="col-sm-12 mb-2">
+									<input type="text" class="form-control" placeholder="Enter Name">
+								</div>
+								<div class="col-sm-12 mb-2">
+									<input type="text" class="form-control" placeholder="Enter Address">
+								</div>
+								<div class="col-sm-12 mb-2">
+									<input type="text" class="form-control" placeholder="Enter Phone Number">
+								</div>
+								<div class=" top-controls col-sm-3 mt-2">
+									<input type="button" class="btn" value="Submit">
+								</div>
+							</div>
+							<div class="form-group mb-2">
+								<div class="col-sm-12">
+									<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+								</div>
+							</div>
+							<div class="form-group mb-2">
+								<div class="col-sm-12">
+									<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
+								</div>
+							</div>
+							<div class="form-group mb-2">
+								<div class="col-sm-12">
+									<input type="text" class="form-control"placeholder="Enter Rate" style="width: 100%;">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+						<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
 					</div>
 				</div>
 			</div>

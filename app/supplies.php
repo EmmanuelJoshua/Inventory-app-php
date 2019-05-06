@@ -60,44 +60,44 @@
 								</div>
 								<div class="modal-body">
 									<form class="form-horizontal">
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control" placeholder="Enter Supplier's Name Or Id" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="date" class="form-control">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Waybill Number" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<select class="custom-select form-control">
 													<option>Select Tank Of Discharge</option>
 												</select>
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Suppplies" style="width: 100%;">
 											</div>

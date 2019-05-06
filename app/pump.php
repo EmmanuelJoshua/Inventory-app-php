@@ -65,43 +65,43 @@
 								</div>
 								<div class="modal-body">
 									<form class="form-horizontal">
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control" placeholder="Enter Pump Name" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Opening Meter Number" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Product Type" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Product Description" style="width: 100%;">
 											</div>
 										</div>
 										<h5 class="productTitle">Pump Meter Margin In %</h5>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Actual" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Pump Meter" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Margin In %" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-1">
 											<div class="col-sm-12">
 												<select class="custom-select form-control">
 													<option>Select Tank</option>
@@ -129,32 +129,32 @@
 								</div>
 								<div class="modal-body">
 									<form class="form-horizontal">
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="date" class="form-control">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Pump Name" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Closing Meter" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Attendant's Name" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Received From Attendants" style="width: 100%;">
 											</div>
 										</div>
-										<div class="form-group mb-3">
+										<div class="form-group mb-2">
 											<div class="col-sm-12">
 												<input type="text" class="form-control"placeholder="Enter Product" style="width: 100%;">
 											</div>
