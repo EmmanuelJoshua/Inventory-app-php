@@ -1,5 +1,5 @@
 <?php include("includes/header.php") ?>
-<?php include("includes/sideNavigation.php") ?>
+<?php $page = 'bank';include("includes/sideNavigation.php") ?>
 <!DOCTYPE html>
 <html>
   <head>

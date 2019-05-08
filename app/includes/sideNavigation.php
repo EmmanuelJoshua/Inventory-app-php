@@ -16,41 +16,41 @@
   <body>
     <div class="nav-left-sidebar sidebar-dark">
         <nav class="navbar-white bg-transparent">
-            <ul class="navbar-nav flex-column pt-2">
-              <li class="nav-item ">
-                <a class="nav-link" href="products.php"><i class="fas fa-box-open"></i><span>Products</span></a>
+            <ul class="navbar-nav flex-column pt-2" id="navbar-nav">
+              <li class="nav-item <?php if($page=='product'){echo 'navbar-active';}?>">
+                <a class="nav-link " href="products.php"><i class="fas fa-box-open"></i><span>Products</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='tank'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="tanks.php"><i class="fas fa-truck"></i><span>Tanks</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='prices'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="prices.php"><i class="fas fa-tags"></i></i><span>Prices</span></a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item <?php if($page=='pump'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="pump.php"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='supplies'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="supplies.php"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='suppliers'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="suppliers.php"><i class="fas fa-users"></i><span>Suppliers</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='customers'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="customers.php"><i class="fas fa-user-friends"></i><span>Customers/Buyers</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='payment'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="payment.php"><i class="far fa-credit-card"></i><span>Payment</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='bank'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="bank.php"><i class="fas fa-university"></i><span>Bank</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='expenses'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="expenses_purchase.php"><i class="fas fa-cash-register"></i><span>Expenses/Purchases</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='invoice'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="invoice.php"><i class="fas fa-file-invoice"></i><span>Invoice</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item <?php if($page=='income'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="income_expenditure.php"><i class="fas fa-file-invoice-dollar"></i><span>Income/Expenditure</span></a>
               </li>
             </ul>
@@ -60,5 +60,4 @@
   </div>
 </div>
 </body>
-<script type="text/javascript" src="../app/assets/js-app-files/header.js"></script>
 </html>
