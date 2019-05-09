@@ -148,37 +148,42 @@
 				<!-- CONTAINER FOR TABLES -->
 				<div class="row">
 					<div class="container-fluid">
-						<!-- BLUE HEADER -->
-						<h5 class="productTitle">Price Category :</h5>
-							<div class="table-responsive">
-								<table class="table bg-white">
-									<thead>
-										<tr>
-											<th scope="col">Product Code</th>
-											<th scope="col">Product Description</th>
-											<th scope="col">Price</th>
-											<th scope="col">Options</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td><div class="nav-item dropdown show">
-												<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-												Actions
-												</button>
-												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editPriceCategory">Edit<i class="fas fa-edit ml-4"></i></button>
-													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deletePrice">Delete<i class="fas fa-trash-alt ml-4"></i></button>
-												</div>
-											</div>
-										</td>
-									</tr>
-								</tbody>
-							</table>
+						<div class="container">
+							<div class="row">
+								<div class="productTitle col-md-4 mb-3">
+									Price Category :
+								</div>
+							</div>
 						</div>
+						<div class="table-responsive">
+							<table class="table bg-white">
+								<thead>
+									<tr>
+										<th scope="col">Product Code</th>
+										<th scope="col">Product Description</th>
+										<th scope="col">Price</th>
+										<th scope="col">Options</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Unknown</td>
+										<td>Unknown</td>
+										<td>Unknown</td>
+										<td><div class="nav-item dropdown show">
+											<button class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Actions
+											</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+												<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editPriceCategory">Edit<i class="fas fa-edit ml-4"></i></button>
+												<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deletePrice">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>

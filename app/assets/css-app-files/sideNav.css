@@ -28,9 +28,7 @@
 }
 
 .nav-left-sidebar .nav-item a:hover{
-	color: #fff;
-    background-color: rgba(36, 40, 73,.9) !important;
-    border-radius: 5px;
+	color: #242849;
 }
 
 .nav-left-sidebar .nav-item a{
@@ -43,18 +41,15 @@
 }
 
 .navbar-active{
-    background-color: rgb(36, 40, 73) !important;
-    color: #242849 !important;
-    /*border-left: 4px solid #242849;*/
+    border-radius: 4px;
+    border-left: 2px solid #242849;
+    background-color: #FFFFFF;
     transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .navbar-active a{
-    color: #fff !important;
-}
-
-.navbar-active a:hover{
-    color: #fff !important;
+    color: #242849 !important;
 }
 
 .nav-left-sidebar .navbar-nav {
@@ -68,4 +63,7 @@
 	.nav-left-sidebar .nav-item a span{
 		display: none;
 	}
+    .nav-left-sidebar .nav-link i{
+        margin-left: 14px;
+    }
 }

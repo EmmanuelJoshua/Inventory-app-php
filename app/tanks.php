@@ -250,23 +250,65 @@
 										<option>Select Tank</option>
 									</select>
 								</div>
-								<div>
-									<h5 class="productTitle">Tank Name :</h5>
+								<div class="container">
+									<div class="row">
+										<div class="productTitle col-md-4 mb-3">
+											Tank Name :
+										</div>
+									</div>
 								</div>
 								<div class="table-responsive">
+									<table class="table bg-white">
+										<thead>
+											<tr style="font-size: 14px;">
+												<th scope="col">Pump Name</th>
+												<th scope="col">Pump Sales</th>
+												<th scope="col">Pump Meter Margin</th>
+												<th scope="col">Opening Dipping</th>
+												<th scope="col">Closing Dipping</th>
+												<th scope="col">Date</th>
+												<th scope="col">Supply</th>
+												<th scope="col">Return</th>
+												<th scope="col">Expected</th>
+												<th scope="col">Total Margin</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+												<td>Unknown</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!-- DIV FOR TANK SUMMARY (Display is set to none) -->
+						<div id="tankSummary" class="d-none animated fadeIn">
+							<div class="container">
+									<div class="row">
+										<div class="productTitle col-md-4 mb-3">
+											Tank Summary as of :
+										</div>
+									</div>
+								</div>
+							<div class="table-responsive">
 								<table class="table bg-white">
 									<thead>
-										<tr style="font-size: 14px;">
-											<th scope="col">Pump Name</th>
-											<th scope="col">Pump Sales</th>
-											<th scope="col">Pump Meter Margin</th>
-											<th scope="col">Opening Dipping</th>
-											<th scope="col">Closing Dipping</th>
-											<th scope="col">Date</th>
-											<th scope="col">Supply</th>
-											<th scope="col">Return</th>
-											<th scope="col">Expected</th>
-											<th scope="col">Total Margin</th>
+										<tr>
+											<th scope="col">S/N</th>
+											<th scope="col">Tank Name</th>
+											<th scope="col">Product Code</th>
+											<th scope="col">Product Description</th>
+											<th scope="col">Current Balance</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -276,44 +318,10 @@
 											<td>Unknown</td>
 											<td>Unknown</td>
 											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
-											<td>Unknown</td>
 										</tr>
 									</tbody>
 								</table>
 							</div>
-							</div>
-						</div>
-						<!-- DIV FOR TANK SUMMARY (Display is set to none) -->
-						<div id="tankSummary" class="d-none animated fadeIn">
-							<div>
-								<h5 class="productTitle">Tank Summary as of :</h5>
-							</div>
-							<div class="table-responsive">
-							<table class="table bg-white">
-								<thead>
-									<tr>
-										<th scope="col">S/N</th>
-										<th scope="col">Tank Name</th>
-										<th scope="col">Product Code</th>
-										<th scope="col">Product Description</th>
-										<th scope="col">Current Balance</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-										<td>Unknown</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
 						</div>
 					</div>
 				</div>

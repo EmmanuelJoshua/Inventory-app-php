@@ -264,7 +264,7 @@
           <div id="productSummary" class="d-none animated fadeIn">
             <div class="container">
               <div class="row">
-                <div class="productTitle mb-3">
+                <div class="productTitle col-md-4 mb-3">
                   Product Summary as at :
                 </div>
               </div>
