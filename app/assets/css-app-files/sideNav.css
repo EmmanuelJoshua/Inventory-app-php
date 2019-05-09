@@ -23,7 +23,7 @@
 }
 
 .nav-left-sidebar .nav-item a:hover{
-	color: #242849 !important;
+	color: #242849;
 }
 
 .nav-left-sidebar .nav-item a{
@@ -36,9 +36,18 @@
 }
 
 .navbar-active{
-    background-color: rgb(242, 242, 242) !important;
+    background-color: rgb(36, 40, 73) !important;
     color: #242849 !important;
-    border-left: 4px solid #242849;
+    /*border-left: 4px solid #242849;*/
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-active a{
+    color: #fff !important;
+}
+
+.navbar-active a:hover{
+    color: #fff !important;
 }
 
 .nav-left-sidebar .navbar-nav {
