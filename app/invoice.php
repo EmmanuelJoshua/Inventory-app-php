@@ -272,7 +272,13 @@
 									<input type="button" name="" class="btn ml-1 col-md-1 col-4" value="Submit">
 								</div>
 							</div>
-							<h5 class="productTitle">Details</h5>
+							<div class="container">
+								<div class="row">
+									<div class="productTitle col-md-2 mb-2">
+										Details
+									</div>
+								</div>
+							</div>
 							<div class="top-controls form-inline mb-2">
 								<select class="custom-select form-control col-md-3 col-6">
 									<option>Payments</option>
@@ -336,7 +342,13 @@
 								<input type="button" name="" class="btn mt-2 col-md-1 col-4" value="Submit">
 							</div>
 						</div>
-						<h5 class="productTitle">Details</h5>
+						<div class="container">
+								<div class="row">
+									<div class="productTitle col-md-2 mb-2">
+										Details
+									</div>
+								</div>
+							</div>
 						<div class="top-controls form-inline mb-2">
 							<select class="custom-select form-control col-md-3 col-6">
 								<option>Payments</option>
