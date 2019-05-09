@@ -225,10 +225,12 @@
                   <option>Products</option>
                 </select>
               </div>
-              <div class="mt-3">
-                <h5 class="productTitle">Product Name :</h5>
-                <h5 class="productTitle">Product Code :</h5>
-                <h5 class="productTitle">Current Balance :</h5>
+              <div class="container">
+                <div class="row">
+                  <div class="productTitle col-md-3 mt-3">Product Name :</div>
+                  <div class="productTitle col-md-3 mt-3 ml-2">Product Code :</div>
+                  <div class="productTitle col-md-3 mt-3 ml-2">Current Balance :</div>
+                </div>
               </div>
               <div class="table-responsive">
                 <table class="table bg-white mt-4">
@@ -260,8 +262,12 @@
           </div>
           <!-- DIV FOR PRODUCT SUMMARY (Display is set to none) -->
           <div id="productSummary" class="d-none animated fadeIn">
-            <div>
-              <h5 class="productTitle">Product Summary as at :</h5>
+            <div class="container">
+              <div class="row">
+                <div class="productTitle mb-3">
+                  Product Summary as at :
+                </div>
+              </div>
             </div>
             <div class="top-controls mb-4">
               <div class="form-inline">

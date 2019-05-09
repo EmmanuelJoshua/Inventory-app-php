@@ -22,8 +22,15 @@
     transition: all 0.4s ease-in-out;
 }
 
+.nav-left-sidebar .nav-item{
+    margin: 1px 8px;
+    border-radius: 5px;
+}
+
 .nav-left-sidebar .nav-item a:hover{
-	color: #242849;
+	color: #fff;
+    background-color: rgba(36, 40, 73,.9) !important;
+    border-radius: 5px;
 }
 
 .nav-left-sidebar .nav-item a{
@@ -31,7 +38,7 @@
     color: #555;
     font-family: 'Titillium Web' ,'Open Sans';
     font-size: 12px;
-    padding: 10px 0;
+    padding: 9px 0;
     text-transform: uppercase;
 }
 

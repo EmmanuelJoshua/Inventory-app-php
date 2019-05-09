@@ -30,16 +30,19 @@
 }
 
 .dash-content{
-	padding: 0 !important;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 2px solid #2FD3C1;
+    background-color: #FFFFFF;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .dash-content span{
-	font-family: 'Open Sans';
+	font-family: 'Titillium Web';
     margin-left: 0.5em;
     margin-bottom: -1em;
     font-size: 18px !important;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     font-weight: 400;
 }

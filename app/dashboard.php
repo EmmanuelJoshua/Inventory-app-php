@@ -14,6 +14,7 @@
 		<!-- Font CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
@@ -25,24 +26,22 @@
 
 				<div class="container">
 					<div class="row mb-4">
-						<div class="col-5 mx-auto bg-white rounded dash-content">
+						<div class="col-5 mx-auto dash-content text-center">
 							<span>Logged in as</span>
-							<hr>
-							<span>Daniel Ilondu</span>
+							
 						</div>
 
-						<div class="col-5 mx-auto bg-white rounded dash-content">
+						<div class="col-5 mx-auto dash-content text-center">
 							<span>Date</span>
-							<hr>
-							<span>Time</span>
+							
 						</div>
 					</div>
 				</div>
 
 				<div class="container">
 					<div class="row mb-3">
-						<div class="dash-header rounded col-7 mx-auto bg-white text-center">
-							<h2>Palace Petroleum</h2>
+						<div class="dash-content col-7 mx-auto text-center">
+							<h2 style="font-family: pacifico">Palace Petroleum</h2>
 						</div>		
 					</div>
 				</div>
