@@ -45,7 +45,7 @@
 				<div class="row">
 					<div class="container-fluid">
 						<!-- DIV FOR REGISTERED CUSTOMERS -->
-						<div id="registeredCustomers" class="animated fadeIn">
+						<div id="registeredCustomers" class="d-none animated fadeIn">
 							<div class="top-controls mb-2">
 								<div class="form-inline">
 									<select class="custom-select form-control col-md-3 col-6">
@@ -104,7 +104,33 @@
 						</div>
 					</div>
 					<!-- DIV FOR UNREGISTERED CUSTOMERS -->
-					<div id="unregisteredCustomers" class="d-none animated fadeIn">
+					<div id="unregisteredCustomers" class=" animated fadeIn">
+						<div class="top-controls mb-2">
+								<div class="form-inline">
+									<input type="text" name="" class="form-control col-md-3 col-3" placeholder="Name">
+									<input type="text" name="" class="form-control ml-1 col-md-3 col-3" placeholder="Address">
+									<input type="text" name="" class="form-control ml-1 col-md-3 col-4" placeholder="Phone Number">
+								</div>
+								<div class="form-inline">
+									<input type="button" name="" class="btn mt-2 col-md-1 col-4" value="Submit">
+								</div>
+								<div class="form-inline mt-3">
+									<input type="text" name="" class="form-control col-md-3 col-4" placeholder="Product Code">
+									<input type="text" name="" class="form-control ml-1 col-md-3 col-3" placeholder="Quantity">
+									<input type="text" name="" class="form-control ml-1 col-md-3 col-3" placeholder="Rate">
+								</div>
+								<div class="form-inline">
+									<input type="button" name="" class="btn mt-2 col-md-1 col-4" value="Submit">
+								</div>
+							</div>
+							<h5 class="productTitle">Details</h5>
+							<div class="top-controls form-inline mb-2">
+								<select class="custom-select form-control col-md-3 col-6">
+									<option>Payments</option>
+									<option>Paid</option>
+									<option>Not Paid</option>
+								</select>
+							</div>
 						<div class="table-responsive">
 							<table class="table bg-white">
 								<thead>
