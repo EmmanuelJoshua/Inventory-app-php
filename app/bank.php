@@ -144,7 +144,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="editBankModal"><i class="fas fa-plus-square"></i></h5>
+                  <h5 class="modal-title" id="editBankModal"><i class="fas fa-edit"></i></h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>

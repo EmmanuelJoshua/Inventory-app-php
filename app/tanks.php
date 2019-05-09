@@ -71,17 +71,17 @@
 									<form class="form-horizontal">
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Date" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Date">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Tank" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Tank">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="password" class="form-control" id="pwd1" placeholder="Enter Closing Dipping" style="width: 100%;">
+												<input type="password" class="form-control" placeholder="Enter Closing Dipping">
 											</div>
 										</div>
 									</form>
@@ -107,22 +107,22 @@
 									<form class="form-horizontal">
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Tank Name" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Tank Name">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Product Code" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Product Code">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="password" class="form-control" id="pwd2" placeholder="Enter Product Description" style="width: 100%;">
+												<input type="password" class="form-control" placeholder="Enter Product Description">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="password" class="form-control" id="pwd3" placeholder="Enter Opening Stock" style="width: 100%;">
+												<input type="password" class="form-control"  placeholder="Enter Opening Stock">
 											</div>
 										</div>
 									</form>
@@ -168,17 +168,22 @@
 									<form class="form-horizontal">
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Tank Name" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Tank Name">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Product Code" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Product Code">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="password" class="form-control" id="pwd4" placeholder="Enter Product Description" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Product Description">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="date" class="form-control">
 											</div>
 										</div>
 									</form>

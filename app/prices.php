@@ -66,17 +66,17 @@
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Code">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Description" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Description">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Price">
 											</div>
 										</div>
 									</form>
@@ -102,17 +102,17 @@
 									<form class="form-horizontal">
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Code">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Description" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Description">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Price">
 											</div>
 										</div>
 									</form>

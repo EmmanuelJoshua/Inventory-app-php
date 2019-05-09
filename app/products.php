@@ -62,27 +62,27 @@
                   <form class="form-horizontal">
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
+                        <input type="text" class="form-control" placeholder="Enter Product Name">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Product Code">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Unit">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Description">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Price">
                       </div>
                     </div>
                   </form>
@@ -99,7 +99,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="editProductModal"><i class="fas fa-user-edit"></i></h5>
+                  <h5 class="modal-title" id="editProductModal"><i class="fas fa-edit"></i></h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>
@@ -108,27 +108,32 @@
                   <form class="form-horizontal">
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control" placeholder="Enter Product Name" style="width: 100%;">
+                        <input type="text" class="form-control" placeholder="Enter Product Name">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Product Code">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Unit" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Description">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+                        <input type="date" class="form-control">
                       </div>
                     </div>
                     <div class="form-group mb-3">
                       <div class="col-sm-12">
-                        <input type="text" class="form-control"placeholder="Enter Price" style="width: 100%;">
+                        <input type="text" class="form-control"placeholder="Enter Unit">
+                      </div>
+                    </div>
+                    <div class="form-group mb-3">
+                      <div class="col-sm-12">
+                        <input type="text" class="form-control"placeholder="Enter Price">
                       </div>
                     </div>
                   </form>

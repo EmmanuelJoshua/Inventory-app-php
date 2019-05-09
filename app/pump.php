@@ -67,38 +67,38 @@
 									<form class="form-horizontal">
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control" placeholder="Enter Pump Name" style="width: 100%;">
+												<input type="text" class="form-control" placeholder="Enter Pump Name">
 											</div>
 										</div>
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Opening Meter Number" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Opening Meter Number">
 											</div>
 										</div>
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Type" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Type">
 											</div>
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product Description" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product Description">
 											</div>
 										</div>
 										<h5 class="productTitle">Pump Meter Margin In %</h5>
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Actual" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Actual">
 											</div>
 										</div>
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Pump Meter" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Pump Meter">
 											</div>
 										</div>
 										<div class="form-group mb-1">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Margin In %" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Margin In %">
 											</div>
 										</div>
 										<div class="form-group mb-1">
@@ -136,32 +136,32 @@
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Pump Name" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Pump Name">
 											</div>
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Closing Meter" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Closing Meter">
 											</div>
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Attendant's Name" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Attendant's Name">
 											</div>
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Received From Attendants" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Received From Attendants">
 											</div>
 										</div>
 										<div class="form-group mb-2">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Product" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Product">
 											</div>
 										</div>
 										<div class="form-group mb-3">
 											<div class="col-sm-12">
-												<input type="text" class="form-control"placeholder="Enter Source Tank" style="width: 100%;">
+												<input type="text" class="form-control"placeholder="Enter Source Tank">
 											</div>
 										</div>
 									</form>
@@ -178,7 +178,7 @@
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									<h5 class="modal-title" id="editPumpModal"><i class="fas fa-user-edit"></i></h5>
+									<h5 class="modal-title" id="editPumpModal"><i class="fas fa-edit"></i></h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 									</button>

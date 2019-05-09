@@ -43,6 +43,217 @@
 						</div>
 					</div>
 				</div>
+				<!-- DIV CONTAINING MODALS -->
+				<div class="top-controls">
+					<!-- EDIT REGISTERED CUSTOMER MODAL -->
+					<div class="modal fade" id="editRegisteredCustomer" tabindex="-1" role="dialog" aria-labelledby="editRegisteredCustomerModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="editRegisteredCustomerModal"><i class="fas fa-edit"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control" placeholder="Enter S/N" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Ref" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Amount" style="width: 100%;">
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- EDIT UNREGISTERED CUSTOMER MODAL -->
+					<div class="modal fade" id="editUnregisteredCustomer" tabindex="-1" role="dialog" aria-labelledby="editUnregisteredCustomerModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="editUnregisteredCustomerModal"><i class="fas fa-edit"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control" placeholder="Enter S/N" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Description" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Ref" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Amount" style="width: 100%;">
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- EDIT INVOICE LEDGER MODAL -->
+					<div class="modal fade" id="editInvoiceLedger" tabindex="-1" role="dialog" aria-labelledby="editInvoiceLedgerModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="editInvoiceLedgerModal"><i class="fas fa-edit"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control" placeholder="Enter S/N" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="date" class="form-control">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Customer" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Invoice Number" style="width: 100%;">
+											</div>
+										</div>
+										<div class="form-group mb-3">
+											<div class="col-sm-12">
+												<input type="text" class="form-control"placeholder="Enter Amount" style="width: 100%;">
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- DELETE REGISTERED CUSTOMER INVOICE MODAL -->
+					<div class="modal fade" id="deleteRegisteredCus" tabindex="-1" role="dialog" aria-labelledby="deleteRegisteredCusModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="deleteRegisteredCusModal"><i class="fas fa-trash-alt"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Do you want to delete this Invoice?</h4>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- DELETE UNREGISTERED CUSTOMER INVOICE MODAL -->
+					<div class="modal fade" id="deleteUnregisteredCus" tabindex="-1" role="dialog" aria-labelledby="deleteUnregisteredCusModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="deleteUnregisteredCusModal"><i class="fas fa-trash-alt"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Do you want to delete this Invoice?</h4>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- DELETE INVOICE LEDGER MODAL -->
+					<div class="modal fade" id="deleteInvoiceLed" tabindex="-1" role="dialog" aria-labelledby="deleteInvoiceLedModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="deleteInvoiceLedModal"><i class="fas fa-trash-alt"></i></h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Do you want to delete this Invoice Ledger?</h4>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 90px !important;">Cancel<i class="fas fa-times-circle"></i></button>
+									<button type="button" class="btn btn-primary pl-1 pr-1">Yes<i class="fas fa-check-circle"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- CONTAINER FOR TABLES -->
 				<div class="row">
 					<div class="container-fluid">
@@ -95,8 +306,8 @@
 												Actions
 												</button>
 												<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editProduct">Edit<i class="fas fa-edit ml-4"></i></button>
-													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+													<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editRegisteredCustomer">Edit<i class="fas fa-edit ml-4"></i></button>
+													<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteRegisteredCus">Delete<i class="fas fa-trash-alt ml-4"></i></button>
 												</div>
 											</div>
 										</td>
@@ -159,8 +370,8 @@
 											Actions
 											</button>
 											<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-												<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editProduct">Edit<i class="fas fa-edit ml-4"></i></button>
-												<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+												<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editUnregisteredCustomer">Edit<i class="fas fa-edit ml-4"></i></button>
+												<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteUnregisteredCus">Delete<i class="fas fa-trash-alt ml-4"></i></button>
 											</div>
 										</div>
 									</td>
@@ -195,8 +406,8 @@
 										Actions
 										</button>
 										<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-											<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editProduct">Edit<i class="fas fa-edit ml-4"></i></button>
-											<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteProduct">Delete<i class="fas fa-trash-alt ml-4"></i></button>
+											<button class="dropdown-item" href="#" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#editInvoiceLedger">Edit<i class="fas fa-edit ml-4"></i></button>
+											<button class="dropdown-item" style="font-family: 'Titillium Web'" data-toggle="modal" data-target="#deleteInvoiceLed">Delete<i class="fas fa-trash-alt ml-4"></i></button>
 										</div>
 									</div>
 								</td>
@@ -244,7 +455,6 @@ unregistered.classList.remove('d-none');
 unregistered.style.display = "block";
 registered.classList.add('d-none');
 registered.classList.remove('d-block');
-
 		navUnreg.classList.add("topcontrolActive");
 navReg.classList.remove("topcontrolActive");
 navLed.classList.remove("topcontrolActive");
@@ -258,7 +468,6 @@ invoice.classList.remove('d-none');
 invoice.style.display = "block";
 registered.classList.add('d-none');
 registered.classList.remove('d-block');
-
 		navLed.classList.add("topcontrolActive");
 navReg.classList.remove("topcontrolActive");
 navUnreg.classList.remove("topcontrolActive");
