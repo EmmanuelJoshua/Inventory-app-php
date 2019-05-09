@@ -33,14 +33,10 @@
 				<div class="row">
 					<div class="container-fluid">
 						<div class="row mb-4">
-							<div class="col-md-6 top-controls2 mt-4">
-								<button class="btn topcontrolActive mr-1" style="width: 110px !important;">Registered</button>
-								<button class="btn mr-1" style="width: 130px !important;">Unregistered</button>
+							<div class="col-md-12 top-controls2 mt-4">
+								<button class="btn topcontrolActive mr-1" style="width: 185px !important;">Create For Registered</button>
+								<button class="btn mr-1" style="width: 205px !important;">Create For Unregistered</button>
 								<button class="btn mr-1" style="width: 130px !important;">Invoice Ledger</button>
-							</div>
-							<div class="col-md-6 top-controls text-right mt-4">
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registeredInvoice" style="width: 170px !important;">Registered<i class="fas fa-plus-circle"></i></button>
-								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#unregisteredInvoice" style=" width: 140px !important;">Unregistered<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>
 					</div>
@@ -50,6 +46,27 @@
 					<div class="container-fluid">
 						<!-- DIV FOR REGISTERED CUSTOMERS -->
 						<div id="registeredCustomers" class="animated fadeIn">
+							<div class="top-controls mb-2">
+								<div class="form-inline">
+									<select class="custom-select form-control col-md-3 col-6">
+										<option>Customer Name</option>
+									</select>
+									<input type="button" name="" class="btn ml-1 col-md-1 col-4" value="Submit">
+								</div>
+								<div class="form-inline mt-3">
+									<input type="text" name="" class="form-control col-md-3 col-3" placeholder="Product Code">
+									<input type="text" name="" class="form-control ml-1 col-md-3 col-3" placeholder="Quantity">
+									<input type="button" name="" class="btn ml-1 col-md-1 col-4" value="Submit">
+								</div>
+							</div>
+							<h5 class="productTitle">Details</h5>
+							<div class="top-controls form-inline mb-2">
+								<select class="custom-select form-control col-md-3 col-6">
+									<option>Payments</option>
+									<option>Paid</option>
+									<option>Not Paid</option>
+								</select>
+							</div>
 							<div class="table-responsive">
 								<table class="table bg-white">
 									<thead>
@@ -166,95 +183,6 @@
 	</div>
 	<!-- DIV CONTAINING MODALS -->
 	<div class="top-controls">
-		<!-- CREATE INVOICE FOR REGISTERED CUSTOMERS MODAL -->
-		<div class="modal fade" id="registeredInvoice" tabindex="-1" role="dialog" aria-labelledby="registeredInvoiceModal" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="registeredInvoiceModal"><i class="fas fa-plus-square mr-2"></i>Create Invoice for Registered Customers</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form class="form-horizontal">
-							<div class="form-group mb-3">
-								<div class="col-sm-12">
-									<input type="text" class="form-control" placeholder="Enter Customer's Name">
-								</div>
-								<div class=" top-controls col-sm-3 mt-3">
-									<input type="button" class="btn" value="Submit">
-								</div>
-							</div>
-							<div class="form-group mb-3">
-								<div class="col-sm-12">
-									<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
-								</div>
-							</div>
-							<div class="form-group mb-3">
-								<div class="col-sm-12">
-									<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-						<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- CREATE INVOICE FOR UNREGISTERED CUSTOMERS MODAL -->
-		<div class="modal fade" id="unregisteredInvoice" tabindex="-1" role="dialog" aria-labelledby="unregisteredInvoiceModal" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="unregisteredInvoiceModal"><i class="fas fa-plus-square mr-2"></i>Create Invoice for Unregistered Customers</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<form class="form-horizontal">
-							<div class="form-group mb-3">
-								<div class="col-sm-12 mb-2">
-									<input type="text" class="form-control" placeholder="Enter Name">
-								</div>
-								<div class="col-sm-12 mb-2">
-									<input type="text" class="form-control" placeholder="Enter Address">
-								</div>
-								<div class="col-sm-12 mb-2">
-									<input type="text" class="form-control" placeholder="Enter Phone Number">
-								</div>
-								<div class=" top-controls col-sm-3 mt-2">
-									<input type="button" class="btn" value="Submit">
-								</div>
-							</div>
-							<div class="form-group mb-2">
-								<div class="col-sm-12">
-									<input type="text" class="form-control"placeholder="Enter Product Code" style="width: 100%;">
-								</div>
-							</div>
-							<div class="form-group mb-2">
-								<div class="col-sm-12">
-									<input type="text" class="form-control"placeholder="Enter Quantity" style="width: 100%;">
-								</div>
-							</div>
-							<div class="form-group mb-2">
-								<div class="col-sm-12">
-									<input type="text" class="form-control"placeholder="Enter Rate" style="width: 100%;">
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary pl-1 pr-1" data-dismiss="modal" style="width: 80px !important;">Cancel<i class="fas fa-times-circle"></i></button>
-						<button type="button" class="btn btn-primary pl-1 pr-1">Save<i class="fas fa-check-circle"></i></button>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 </div>
