@@ -27,12 +27,12 @@
 				<div class="container">
 					<div class="row mb-4">
 						<div class="col-5 mx-auto dash-content text-center">
-							<span>Logged in as</span>
+							<span>Mr. User</span>
 							
 						</div>
 
 						<div class="col-5 mx-auto dash-content text-center">
-							<span>Date</span>
+							<span>2019-02-02</span>
 							
 						</div>
 					</div>
