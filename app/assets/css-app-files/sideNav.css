@@ -24,7 +24,6 @@
 
 .nav-left-sidebar .nav-item{
     margin: 1px 3.5px;
-    /*border-radius: 5px;*/
 }
 
 .nav-left-sidebar .nav-item a:hover{
@@ -43,7 +42,7 @@
 .navbar-active{
     border-radius: 4px;
     border-left: 2.5px solid #242849;
-    background-color: #FFFFFF;
+    background-color: #71E2F0;
     transition: all 0.4s ease-in-out;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
 }
@@ -64,6 +63,6 @@
 		display: none;
 	}
     .nav-left-sidebar .nav-link i{
-        margin-left: 14px;
+        margin-left: 18px;
     }
 }
