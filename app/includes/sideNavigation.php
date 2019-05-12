@@ -18,7 +18,7 @@
         <nav class="navbar-white bg-transparent">
             <ul class="navbar-nav flex-column pt-2" id="navbar-nav">
               <li class="nav-item <?php if($page=='product'){echo 'navbar-active';}?>">
-                <a class="nav-link " href="products.php"><i class="fas fa-box-open"></i><span>Products</span></a>
+                <a class="nav-link " href="products.php"><i class="fas fa-boxes"></i><span>Products</span></a>
               </li>
               <li class="nav-item <?php if($page=='tank'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="tanks.php"><i class="fas fa-truck"></i><span>Tanks</span></a>
@@ -30,7 +30,7 @@
                 <a class="nav-link" href="pump.php"><i class="fas fa-gas-pump"></i><span>Fuel Pump</span></a>
               </li>
               <li class="nav-item <?php if($page=='supplies'){echo 'navbar-active';}?>">
-                <a class="nav-link" href="supplies.php"><i class="fas fa-truck-moving"></i><span>Supplies</span></a> 
+                <a class="nav-link" href="supplies.php"><i class="fas fa-truck-loading"></i></i><span>Supplies</span></a> 
               </li>
               <li class="nav-item <?php if($page=='suppliers'){echo 'navbar-active';}?>">
                 <a class="nav-link" href="suppliers.php"><i class="fas fa-users"></i><span>Suppliers</span></a>
