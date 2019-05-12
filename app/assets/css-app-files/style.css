@@ -8,7 +8,7 @@
     margin-top: 60px !important;
     margin-left: 200px;
     height: 100%;
-   	background-color: #f3f3f3;
+   	background-color: #f3f3f3 !important;
 }
 
 .dashboard-wrapper .container-fluid:first-child{

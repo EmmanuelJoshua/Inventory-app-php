@@ -1,9 +1,9 @@
-.dashboard-wrapper{
+.dashboard-wrappers{
    	position: relative;
     left: 0;
     margin-top: 60px !important;
     margin-left: 200px;
-    /*height: 8;*/
+
    	/*background-color: #f3f3f3;*/
     background-image: url(../images/pexels-photo-1363165.jpeg);
     /*background-size: cover;*/
