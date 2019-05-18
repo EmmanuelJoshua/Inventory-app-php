@@ -17,9 +17,10 @@
   <body onload="displayTime();">
     <div class="dashboard-main-wrapper">
       <div class="dashboard-header">
-        <nav class="navbar navbar-expand bg-white fixed-top">
+        <nav class="navbar navbar-expand fixed-top">
           <div class="header-wrapper">
             <a class="navbar-brand">Palace Petroleum</a>
+            <hr>
           </div>
           <div class=" navbar-collapse">
             <ul class="navbar-nav ml-auto navbar-right-top">

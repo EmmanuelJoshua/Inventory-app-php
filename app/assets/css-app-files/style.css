@@ -12,18 +12,30 @@
 }
 
 .dashboard-wrapper .container-fluid:first-child{
-	background-color: white !important;
+	background-color: #F0F3F1 !important;
 }
 
 .links{
 	font-family: 'Titillium Web','Open Sans';
 	width: 100%;
-	background-color: #242849;
-	height: 40px;
-	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-	padding-top: 8px;
+	background-color: #4CB170;
+	height: 48px;
+	padding-top: 12px;
 }
 
+.links a{
+	color: #fff !important;
+	font-family: 'Titillium Web','Open Sans';
+	font-size: 17px;
+	margin-right: 5px;
+	font-weight: 500;
+}
+
+.top{
+	background-color: #fff !important;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	padding-bottom: 12px;
+}
 
 .top-controls .btn{
 	font-family: Dosis;
@@ -34,13 +46,13 @@
     height: 38px;
     text-transform: uppercase;
     font-weight: 500;
-	color: #343a40 !important;
+	color: #727271 !important;
 	background-color: #fafbfc;
 	transition: all 0.5s ease-in-out;
 }
 
 .top-controls .btn:hover{
-	background-color: #242849;
+	background-color: #4CB170;
 	color: #fff !important;
 }
 
@@ -91,13 +103,13 @@
     height: 38px;
     text-transform: uppercase;
     font-weight: 500;
-	color: #343a40 !important;
+	color: #727271 !important;
 	background-color: #fafbfc;
 	transition: all 0.5s ease-in-out;
 }
 
 .top-controls2 button:hover{
-	background-color: #242849;
+	background-color: #4CB170;
 	color: #fff !important;
 }
 
