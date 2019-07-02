@@ -3,13 +3,13 @@
 }
 
 .nav-left-sidebar {
+    z-index: 9999;
     position: fixed;
     width: 200px;
     height: 100%;
     top: 60px;
     overflow: auto;
-    -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
-    box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    box-shadow: 0px 40px 28px 0px rgba(82, 63, 105, 0.13);
     -webkit-transition: all 0.3s ease;
 }
 
@@ -42,7 +42,8 @@
 .navbar-active{
     border-radius: 4px;
     border-left: 2.5px solid #242849;
-    background-color: #71E2F0;
+   /* background-color: #71E2F0;*/
+       background-image: -webkit-linear-gradient(20deg, #8570BC 0%, #BD6D93 80%);
     transition: all 0.4s ease-in-out;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .08);
 }

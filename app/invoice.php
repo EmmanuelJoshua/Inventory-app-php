@@ -21,21 +21,19 @@
 	</head>
 	<body>
 		<!-- DASHBOARD WRAPPER -->
-		<div class="dashboard-wrapper pt-3">
-			<div class="container">
+		<div class="dashboard-wrapper">
+			<div class="container-fluid">
 				<!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
 				<div class="row">
-					<div class="container-fluid">
-						<div class="links col-12 rounded text-white mt-3">
+						<div class="links col-12 text-white">
 							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Invoice</span>
 						</div>
-					</div>
 				</div>
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="row mb-4">
-							<div class="col-md-12 top-controls2 mt-4">
+						<div class="top row mb-2">
+							<div class="col-md-12 top-controls2 mt-2">
 								<button class="btn topcontrolActive mr-1" style="width: 185px !important;" id="regCus">Create For Registered</button>
 								<button class="btn mr-1" style="width: 205px !important;" id="unregCus">Create For Unregistered</button>
 								<button class="btn mr-1" style="width: 130px !important;" id="invLed">Invoice Ledger</button>

@@ -19,15 +19,13 @@
 	</head>
 	<body>
 		<!-- DASHBOARD WRAPPER -->
-		<div class="dashboard-wrapper pt-3">
-			<div class="container">
+		<div class="dashboard-wrapper">
+			<div class="container-fluid">
 				<!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
 				<div class="row">
-					<div class="container-fluid">
-						<div class="links col-12 rounded text-white mt-3">
+						<div class="links col-12 text-white">
 							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Income/Expenditure</span>
 						</div>
-					</div>
 				</div>
 				<!-- CONTAINER FOR TABLES -->
 				<div class="row">

@@ -48,7 +48,7 @@
 	top: 0;
 	left: 0;
 	position: absolute;
-	z-index: 999;
+	z-index: 9999;
 	-webkit-transition: all 0.3s ease;
 }
 

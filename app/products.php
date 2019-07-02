@@ -21,26 +21,24 @@
   </head>
   <body>
     <!-- DASHBOARD WRAPPER -->
-    <div class="dashboard-wrapper pt-3">
-      <div class="container">
+    <div class="dashboard-wrapper">
+      <div class="container-fluid">
         <!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
         <div class="row">
-          <div class="container-fluid">
-            <div class="links col-12 rounded text-white mt-3">
-              <a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Products</span>
+            <div class="links col-12 text-white">
+              <a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span style="font-size: 14px;"> <i class="fas fa-chevron-right" style="font-size: 11.9px; margin-right: 5px;"></i> Products</span>
             </div>
-          </div>
         </div>
         <!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
         <div class="row">
           <div class="container-fluid">
-            <div class="row mb-4">
-              <div class="col-md-6 top-controls2 mt-4">
+            <div class="top row mb-2">
+              <div class="col-md-6 top-controls2 mt-2">
                 <button class="btn topcontrolActive mr-1" style="width: 80px !important;" id="p1">Product</button>
                 <button class="btn mr-1" style="width: 134px !important;" id="p2">Product Ledger</button>
                 <button class="btn mr-1" style="width: 150px !important;" id="p3">Product Summary</button>
               </div>
-              <div class="col-md-6 top-controls text-right mt-4">
+              <div class="col-md-6 top-controls text-right mt-2">
                 <button class="btn btn-primary mr-1" data-toggle="modal" data-target="#addProduct" style=" width: 140px !important;">Add Product<i class="fas fa-plus-circle"></i></button>
               </div>
             </div>

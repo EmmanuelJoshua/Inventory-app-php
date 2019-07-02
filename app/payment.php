@@ -21,25 +21,23 @@
 	</head>
 	<body>
 		<!-- DASHBOARD WRAPPER -->
-		<div class="dashboard-wrapper pt-3">
-			<div class="container">
+		<div class="dashboard-wrapper">
+			<div class="container-fluid">
 				<!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
 				<div class="row">
-					<div class="container-fluid">
-						<div class="links col-12 rounded text-white mt-3">
+						<div class="links col-12 text-white">
 							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Payment</span>
 						</div>
-					</div>
 				</div>
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="row mb-4">
-							<div class="col-md-6 top-controls2 mt-4">
+						<div class="top row mb-2">
+							<div class="col-md-6 top-controls2 mt-2">
 								<button class="btn topcontrolActive mr-1" style="width: 120px !important;" id="payBtn1">Payment Sent</button>
 								<button class="btn mr-1" style="width: 150px !important;" id="payBtn2">Payment Received</button>
 							</div>
-							<div class="col-md-6 top-controls text-right mt-4">
+							<div class="col-md-6 top-controls text-right mt-2">
 								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#makePayment" style=" width: 140px !important;">Make Payment<i class="fas fa-plus-circle"></i></button>
 								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#receivePayment" style="width: 170px !important;">Receive Payment<i class="fas fa-plus-circle"></i></button>
 							</div>

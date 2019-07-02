@@ -114,7 +114,7 @@
 }
 
 .topcontrolActive{
-	border-bottom: 2px solid #242849;
+	border-bottom: 2px solid #4CB170;
 }
 
 .productTitle{
@@ -153,12 +153,12 @@
 }
 
 .table .dropdown .btn:hover{
-	background-color: #242849;
+	background-color: #4CB170;
 	color: #fff !important;
 }
 
 .table .dropdown-toggle::after {
- 	color: #242849;
+ 	color: #4CB170;
     display: inline-block;
     width: 0;
     height: 0;

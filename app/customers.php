@@ -21,26 +21,24 @@
 	</head>
 	<body>
 		<!-- DASHBOARD WRAPPER -->
-		<div class="dashboard-wrapper pt-3">
-			<div class="container">
+		<div class="dashboard-wrapper">
+			<div class="container-fluid">
 				<!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
 				<div class="row">
-					<div class="container-fluid">
-						<div class="links col-12 rounded text-white mt-3">
+						<div class="links col-12 text-white">
 							<a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Customers</span>
 						</div>
-					</div>
 				</div>
 				<!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
 				<div class="row">
 					<div class="container-fluid">
-						<div class="row mb-4">
-							<div class="col-md-6 top-controls2 mt-4">
+						<div class="top row mb-2">
+							<div class="col-md-6 top-controls2 mt-2">
 								<button class="btn topcontrolActive mr-1" style="width: 100px !important;" id="cusBtn1">Customer</button>
 								<button class="btn mr-1" style="width: 150px !important;" id="cusBtn2">Customer Ledger</button>
 								<button class="btn mr-1" style="width: 150px !important;" id="cusBtn3">Customer Status</button>
 							</div>
-							<div class="col-md-6 top-controls text-right mt-4">
+							<div class="col-md-6 top-controls text-right mt-2">
 								<button class="btn btn-primary mr-1" data-toggle="modal" data-target="#registerCustomer" style="width: 180px !important;">Register Customer<i class="fas fa-plus-circle"></i></button>
 							</div>
 						</div>

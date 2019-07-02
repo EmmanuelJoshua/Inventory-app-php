@@ -19,22 +19,20 @@
   </head>
   <body>
     <!-- DASHBOARD WRAPPER -->
-    <div class="dashboard-wrapper pt-3">
-      <div class="container">
+    <div class="dashboard-wrapper">
+      <div class="container-fluid">
         <!-- ROW CONTAINING LINK TO HOME/DASHBOARD -->
         <div class="row">
-          <div class="container-fluid">
-            <div class="links col-12 rounded text-white mt-3">
+            <div class="links col-12 text-white">
               <a href="dashboard.php" style="color: #8CC2FF; text-decoration: none;">Home</a><span> <i class="fas fa-chevron-right" style="font-size: 11.9px;"></i> Bank</span>
             </div>
-          </div>
         </div>
         <!-- TOP CONTROLS (BUTTONS and DROPDOWNS) -->
         <div class="row">
           <div class="container-fluid">
-            <div class="mt-4 top-controls">
-              <button class="btn btn-primary mr-1 mb-4" data-toggle="modal" data-target="#createBank" style="width: 140px !important;">Create Bank<i class="fas fa-plus-circle"></i></button>
-              <button class="btn btn-primary mr-1 mb-4" data-toggle="modal" data-target="#bankDeposit" style="float: right; width: 140px !important;">Bank Deposit</button>
+            <div class="mt-2 top-controls">
+              <button class="btn btn-primary mr-1 mb-3" data-toggle="modal" data-target="#createBank" style="width: 140px !important;">Create Bank<i class="fas fa-plus-circle"></i></button>
+              <button class="btn btn-primary mr-1 mb-3" data-toggle="modal" data-target="#bankDeposit" style="float: right; width: 140px !important;">Bank Deposit</button>
             </div>
           </div>
         </div>
