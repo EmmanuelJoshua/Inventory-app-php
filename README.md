@@ -1,1 +1,1 @@
-# palace-petroleum-app
+# Inventory-Management-App
